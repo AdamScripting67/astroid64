@@ -131,7 +131,7 @@ UIS.InputBegan:Connect(function(input, gpe)
                 if cur == Enum.UserInputType.MouseButton1 and tick() - bind.Started < 0.1 then continue end
                 bind.Binding = false
                 bind.Key = cur
-                bind.Label.TextColor3 = Library.Theme.TextWhite
+                bind.Label.TextColor3 = Library.Theme.TextWhite or Library.Theme.Text
                 bind.Label.Text = GetKeyName(cur)
                 if bind.Callback then bind.Callback(cur) end
             end
@@ -226,6 +226,42 @@ ScreenGui.ResetOnSpawn = false
 ScreenGui.DisplayOrder = 999
 ScreenGui.Parent = (gethui and gethui()) or CoreGui
 
+-------------------------------------------------
+-- VISIBILITY / UNLOAD API
+-------------------------------------------------
+function Library:SetVisible(state)
+    if ScreenGui then
+        ScreenGui.Enabled = state and true or false
+    end
+end
+
+function Library:ToggleUI()
+    if ScreenGui then
+        ScreenGui.Enabled = not ScreenGui.Enabled
+    end
+end
+
+function Library:Unload()
+    Library.Registry = {}
+    Library.Flags = {}
+    Library.Elements = { Toggles = {}, Sliders = {}, Sections = {}, Tabs = {}, Windows = {}, Labels = {}, Dropdowns = {}, Outlines = {}, Inlines = {}, ColorPickers = {}, Buttons = {}, TextBoxes = {} }
+
+    if ScreenGui then
+        pcall(function() ScreenGui:Destroy() end)
+    end
+
+    local function cleanup(parent)
+        if not parent then return end
+        for _, g in ipairs(parent:GetChildren()) do
+            if g:IsA("ScreenGui") and g.Name == "CelestiteUI" then
+                pcall(function() g:Destroy() end)
+            end
+        end
+    end
+    cleanup(CoreGui)
+    if gethui then cleanup(gethui()) end
+end
+
 local function AddOutline(inst)
     local out = Instance.new("UIStroke")
     out.Name = "Outline"
@@ -244,7 +280,7 @@ local function AddInlineOutline(inst)
     inner.Position = UDim2.new(0, 1, 0, 1)
     inner.BackgroundTransparency = 1
     inner.BorderSizePixel = 0
-    inner.ZIndex = inst.ZIndex -- Same as parent to stay behind content
+    inner.ZIndex = inst.ZIndex
     inner.Parent = inst
     
     local inl = Instance.new("UIStroke")
@@ -327,15 +363,13 @@ local function Create(class, props, children)
     for k, v in pairs(props or {}) do 
         if k == "FontFace" then inst.FontFace = GetFont()
         elseif k == "TextSize" then inst.TextSize = v
-        elseif k == "Parent" then -- Handled later
+        elseif k == "Parent" then
         else inst[k] = v end
     end
     if props.Parent then inst.Parent = props.Parent end
     for _, c in pairs(children or {}) do c.Parent = inst end
     return inst
 end
-
--- Using optimized Frame-based borders defined at top
 
 function Library:Window(title, size)
     local Window = { Tabs = {} }
@@ -410,6 +444,40 @@ function Library:Window(title, size)
                     if opts.Callback then opts.Callback() end
                 end)
                 return { SetText = function(t) Label.Text = t end }
+            end
+
+            function Section:Keybind(opts)
+                local bind = {
+                    Key = opts.Default or Enum.KeyCode.X,
+                    Binding = false,
+                    Started = 0,
+                    Label = nil,
+                    OnTrigger = function() if opts.OnTrigger then opts.OnTrigger(bind.Key) end end,
+                    Callback = opts.Callback
+                }
+                local Holder = Create("Frame", { Size = UDim2.new(1, 0, 0, 16), BackgroundTransparency = 1, ZIndex = 6, Parent = ElementList })
+                local Label = Create("TextLabel", { Text = opts.Name or "Keybind", Size = UDim2.new(1, -60, 1, 0), BackgroundTransparency = 1, FontFace = true, TextSize = Library.Config.FontSize, TextColor3 = Library.Theme.Text, TextXAlignment = Enum.TextXAlignment.Left, ZIndex = 7, Parent = Holder, TextStrokeTransparency = 0, TextStrokeColor3 = Color3.fromRGB(0,0,0) })
+                table.insert(Library.Elements.Labels, Label)
+                local Box = Create("Frame", { Size = UDim2.new(0, 55, 0, 14), Position = UDim2.new(1, -55, 0.5, -7), BackgroundColor3 = Library.Theme.SectionBackground, ZIndex = 7, Parent = Holder })
+                ApplyCelestiteStyle(Box)
+                local KeyLabel = Create("TextLabel", { Text = GetKeyName(bind.Key), Size = UDim2.new(1, 0, 1, 0), BackgroundTransparency = 1, FontFace = true, TextSize = Library.Config.FontSize, TextColor3 = Library.Theme.Text, TextXAlignment = Enum.TextXAlignment.Center, ZIndex = 8, Parent = Box, TextStrokeTransparency = 0, TextStrokeColor3 = Color3.fromRGB(0,0,0) })
+                table.insert(Library.Elements.Labels, KeyLabel)
+                bind.Label = KeyLabel
+                local BindBtn = Create("TextButton", { Size = UDim2.new(1, 0, 1, 0), BackgroundTransparency = 1, Text = "", ZIndex = 9, Parent = Box })
+                BindBtn.MouseButton1Click:Connect(function()
+                    if bind.Binding then return end
+                    bind.Binding = true
+                    bind.Started = tick()
+                    KeyLabel.Text = "..."
+                    KeyLabel.TextColor3 = Library.Theme.Accent
+                end)
+                table.insert(Library.Registry, bind)
+                local Obj = {
+                    Get = function() return bind.Key end,
+                    Set = function(k) bind.Key = k; KeyLabel.Text = GetKeyName(k) end
+                }
+                Library.Flags[opts.Flag or opts.Name] = Obj
+                return Obj
             end
 
             function Section:TextBox(opts)
@@ -695,60 +763,29 @@ function Library:Window(title, size)
             local ConfigPath = "celestite/"
             if not isfolder(ConfigPath) then makefolder(ConfigPath) end
 
-            local ConfigName = ""
-            local NameBox = ConfigSection:TextBox({ Name = "Config Name", Placeholder = "...", Callback = function(v) ConfigName = v end })
-            local ConfigList = ConfigSection:Dropdown({ Name = "Saved Configs", Options = {} })
-            
-            local function Refresh()
-                local names = {}
+            -- ==== AUTOLOAD PREFS ====
+            local autoPath = ConfigPath .. "_autoload.json"
+            local autoPrefs = { enabled = false, config = "" }
+            pcall(function()
+                if isfile(autoPath) then
+                    autoPrefs = HttpService:JSONDecode(readfile(autoPath))
+                end
+            end)
+            local function saveAutoPrefs()
                 pcall(function()
-                    local files = listfiles(ConfigPath)
-                    for _, file in pairs(files) do
-                        local name = file:match("([^/\\]+)$") or file
-                        name = name:gsub("%.json$", ""):gsub("%.JSON$", "")
-                        names[#names + 1] = name
-                    end
+                    writefile(autoPath, HttpService:JSONEncode(autoPrefs))
                 end)
-                ConfigList:Refresh(names)
-                if #names > 0 then
-                    Library:Notification({ Text = "Found " .. #names .. " configs: " .. table.concat(names, ", "), Duration = 3 })
-                else
-                    Library:Notification({ Text = "No configs found in folder", Duration = 2 })
-                end
             end
-            
-            ConfigList.OnOpen = Refresh
 
-            ConfigSection:Button({ Name = "Save Config", Callback = function()
-                if ConfigName == "" then 
-                    Library:Notification({ Text = "Enter a config name", Duration = 3 })
-                    return 
-                end
-                local data = { Theme = {}, Flags = {} }
-                for k, v in pairs(Library.Theme) do data.Theme[k] = {v.R * 255, v.G * 255, v.B * 255} end
-                for k, v in pairs(Library.Flags) do
-                    local val = (v.Get and v.Get()) or (v.GetState and v.GetState()) or (v.GetText and v.GetText())
-                    if typeof(val) == "Color3" then val = {val.R * 255, val.G * 255, val.B * 255} end
-                    data.Flags[k] = val
-                end
-                local success, err = pcall(function()
-                    writefile(ConfigPath .. ConfigName .. ".json", game:GetService("HttpService"):JSONEncode(data))
-                end)
-                if success then
-                    Refresh()
-                    Library:Notification({ Text = "Saved config: " .. ConfigName, Duration = 3 })
-                else
-                    Library:Notification({ Text = "Error saving config", Duration = 5 })
-                end
-            end })
-            
-            ConfigSection:Button({ Name = "Load Config", Callback = function()
-                local selected = ConfigList:Get()
-                if not selected or selected == "" then return end
-                local path = ConfigPath .. selected .. ".json"
-                local success, err = pcall(function()
-                    local data = game:GetService("HttpService"):JSONDecode(readfile(path))
-                    for k, v in pairs(data.Theme or {}) do if Library.Theme[k] then Library.Theme[k] = Color3.fromRGB(v[1], v[2], v[3]) end end
+            local function LoadConfigByName(name)
+                if not name or name == "" or name == "None" then return false end
+                local path = ConfigPath .. name .. ".json"
+                if not isfile(path) then return false end
+                local ok = pcall(function()
+                    local data = HttpService:JSONDecode(readfile(path))
+                    for k, v in pairs(data.Theme or {}) do
+                        if Library.Theme[k] then Library.Theme[k] = Color3.fromRGB(v[1], v[2], v[3]) end
+                    end
                     Library:UpdateTheme()
                     for k, v in pairs(data.Flags or {}) do
                         if Library.Flags[k] then
@@ -758,7 +795,66 @@ function Library:Window(title, size)
                         end
                     end
                 end)
+                return ok
+            end
+
+            local ConfigName = ""
+            local NameBox = ConfigSection:TextBox({ Name = "Config Name", Placeholder = "...", Callback = function(v) ConfigName = v end })
+            local ConfigList = ConfigSection:Dropdown({ Name = "Saved Configs", Options = {} })
+
+            local function Refresh()
+                local names = {}
+                pcall(function()
+                    local files = listfiles(ConfigPath)
+                    for _, file in pairs(files) do
+                        local name = file:match("([^/\\]+)$") or file
+                        name = name:gsub("%.json$", ""):gsub("%.JSON$", "")
+                        if name:sub(1, 1) ~= "_" then
+                            names[#names + 1] = name
+                        end
+                    end
+                end)
+                ConfigList:Refresh(names)
+                if #names > 0 then
+                    Library:Notification({ Text = "Found " .. #names .. " configs: " .. table.concat(names, ", "), Duration = 3 })
+                else
+                    Library:Notification({ Text = "No configs found in folder", Duration = 2 })
+                end
+            end
+
+            ConfigList.OnOpen = Refresh
+
+            ConfigSection:Button({ Name = "Save Config", Callback = function()
+                if ConfigName == "" then
+                    Library:Notification({ Text = "Enter a config name", Duration = 3 })
+                    return
+                end
+                local data = { Theme = {}, Flags = {} }
+                for k, v in pairs(Library.Theme) do data.Theme[k] = {v.R * 255, v.G * 255, v.B * 255} end
+                for k, v in pairs(Library.Flags) do
+                    local val = (v.Get and v.Get()) or (v.GetState and v.GetState()) or (v.GetText and v.GetText())
+                    if typeof(val) == "Color3" then val = {val.R * 255, val.G * 255, val.B * 255} end
+                    data.Flags[k] = val
+                end
+                local success = pcall(function()
+                    writefile(ConfigPath .. ConfigName .. ".json", HttpService:JSONEncode(data))
+                end)
                 if success then
+                    Refresh()
+                    Library:Notification({ Text = "Saved config: " .. ConfigName, Duration = 3 })
+                else
+                    Library:Notification({ Text = "Error saving config", Duration = 5 })
+                end
+            end })
+
+            ConfigSection:Button({ Name = "Load Config", Callback = function()
+                local selected = ConfigList:Get()
+                if not selected or selected == "" or selected == "None" then return end
+                if LoadConfigByName(selected) then
+                    if autoPrefs.enabled then
+                        autoPrefs.config = selected
+                        saveAutoPrefs()
+                    end
                     Library:Notification({ Text = "Loaded config: " .. selected, Duration = 3 })
                 else
                     Library:Notification({ Text = "Error loading config", Duration = 5 })
@@ -767,17 +863,44 @@ function Library:Window(title, size)
 
             ConfigSection:Button({ Name = "Delete Config", Callback = function()
                 local selected = ConfigList:Get()
-                if not selected or selected == "" then return end
+                if not selected or selected == "" or selected == "None" then return end
                 pcall(function() delfile(ConfigPath .. selected .. ".json") end)
+                if autoPrefs.config == selected then
+                    autoPrefs.config = ""
+                    saveAutoPrefs()
+                end
                 Refresh()
             end })
+
+            -- ==== AUTO LOAD TOGGLE ====
+            ConfigSection:Toggle({
+                Name = "Auto Load",
+                Default = autoPrefs.enabled,
+                Callback = function(v)
+                    autoPrefs.enabled = v
+                    if v then
+                        local sel = ConfigList:Get()
+                        if sel and sel ~= "" and sel ~= "None" then
+                            autoPrefs.config = sel
+                        end
+                    end
+                    saveAutoPrefs()
+                    Library:Notification({ Text = "Auto Load " .. (v and "Enabled" or "Disabled"), Duration = 2 })
+                end
+            })
 
             task.spawn(function()
                 Refresh()
                 task.wait(0.5)
                 Refresh()
+                if autoPrefs.enabled and autoPrefs.config and autoPrefs.config ~= "" then
+                    task.wait(0.2)
+                    if LoadConfigByName(autoPrefs.config) then
+                        Library:Notification({ Text = "Auto-loaded: " .. autoPrefs.config, Duration = 3 })
+                    end
+                end
             end)
-            
+
             return ConfigSection
         end
 
