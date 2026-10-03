@@ -1,1 +1,789 @@
-return(function(...)local k={"\079\086\070\098\050\086\108\088\115\086\080\106\079\099\049\053\116\108\061\061";"\077\115\118\109","\101\081\055\110\067\109\122\061";"\121\109\121\049\051\110\120\083\075\112\061\061","\107\111\052\121\115\074\108\061","\053\056\055\119\122\053\117\057\077\112\052\068\052\098\054\100\054\115\097\052\114\070\053\117\056\117\043\081\047\119\054\066\087\117\043\111\097\056\051\078\052\089\089\100\121\097\100\047\102\051\048\050\087\068\088\103\103\068\077\088\083\120\110\084\082\100\115\066\078\106\079\103\102\081\068\048\070\102\077\054\089\116\077\052\047\079\086\110\079\056\086\079\089\077\084\099\079\120\074\048\108\121\116\083\043\088\055\111\055\082\043\099","\118\080\057\102\076\097\071\086\084\115\056\068\053\114\043\081","\085\081\085\072\086\099\121\048\043\086\081\081\043\117\051\072\067\101\078\061";"\115\053\097\061";"\107\114\077\082\115\114\066\061","\074\104\056\110\084\121\120\097\111\115\102\073\097\097\084\108\121\106\118\053";"\107\088\102\070\050\088\090\121\107\114\052\103\050\101\052\048","\116\054\112\049\067\065\078\121\116\112\061\061","\102\066\104\119\073\107\114\119\089\075\087\055\081\111\115\079\109\083\109\108\067\088\065\069\070\109\119\084\103\051\048\088\085\056\055\088\115\086\086\090\069\088\070\115\049\071\074\068\082\100\097\085\055\105\061\061","\076\114\077\114\108\117\047\089\117\086\121\086\077\102\080\101","\082\081\086\070\122\051\077\089\068\113\054\081\079\053\086\061","\049\067\069\109","\107\057\080\071\067\114\055\087";"\065\090\100\049\120\069\101\048\087\108\061\061";"\076\111\051\070\107\099\085\049\085\105\061\061";"\049\076\105\117\065\103\086\065","\117\049\102\056\050\101\077\103\076\053\049\111\109\049\067\048\117\080\097\061";"\050\088\055\071\050\088\080\070";"\076\088\049\056\069\066\061\061","\081\056\107\076\065\120\051\072\047\066\061\061";"\102\099\052\102\107\048\098\052\043\099\121\090\107\086\051\076\102\056\050\061","\065\118\068\065\047\082\108\098\043\104\112\061";"\067\117\085\078","\085\109\098\066\050\109\077\104","\085\114\055\071\085\109\081\054\067\101\097\061","\102\088\098\099\051\057\067\110\115\088\055\043\086\111\080\106\077\112\061\061","\090\049\087\099\076\105\113\050\051\109\085\104\113\066\061\061";"\069\102\051\053\069\086\090\102\069\088\090\120\076\056\102\082","\085\114\055\089\085\111\052\121\115\057\107\061";"\122\113\098\112\084\066\061\061","\071\117\080\090\114\049\089\057\105\057\099\106\070\078\054\100\075\067\122\055\102\079\050\103\056\076\087\043\122\082\116\080\067\073\087\083\105\112\050\119\087\119\097\070\057\048\105\117\078\117\082\076\099\103\120\104\114\071\117\076\066\084\043\112\066\083\089\078\098\070\057\120\053\080\066\072\118\070\057\055\097\114\072\079\076\050\051\116\078\049\074\053\085\100\097\111\076\104\103\069\052\056\056\085\054\105\061\061","\109\111\049\081\077\114\055\049\115\066\061\061","\043\049\078\070\117\088\082\102\069\088\113\081\043\111\051\108\067\114\070\061","\101\081\055\087\067\101\051\082\085\114\080\054\115\114\086\061","\102\114\080\087\107\114\102\118\097\099\051\049\085\114\102\056\085\114\102\048\097\108\061\061";"\108\109\051\048\108\074\102\070\085\114\055\071";"\107\106\067\106\067\088\102\070\051\114\085\090\117\114\102\072";"\115\109\080\070\069\105\061\061";"\101\081\055\074\050\066\061\061","\067\057\090\103\115\106\097\061";"\108\088\090\103\107\088\086\061","\108\106\052\049\050\101\051\049\102\088\049\071\067\114\055\106","\085\056\052\051\079\109\102\090","\067\101\052\118\115\106\097\061","\085\114\080\054\115\114\086\061";"\067\088\080\087\067\108\061\061","\117\048\121\109\086\114\102\071\108\089\047\106\069\081\052\051","\108\109\051\048\102\114\102\122\085\099\052\103\079\105\061\061";"\050\088\082\082\107\112\061\061","\112\120\087\087\075\071\067\057\085\105\061\061";"\067\106\077\081\050\112\061\061";"\107\099\081\082\107\081\067\100\069\049\077\070\102\056\082\078\116\108\061\061","\067\113\082\050\097\088\113\050\122\053\075\048\055\122\119\090\070\104\083\100\110\099\120\118\106\087\089\056\049\113\089\097\071\108\072\079\090\115\073\050\065\100\119\073\066\087\083\103","\107\088\102\070\115\109\102\070\050\101\051\082\050\057\090\049";"\102\086\051\121\115\117\097\061";"";"\104\117\057\112\099\055\111\100\076\075\107\100\116\105\061\061","\115\114\102\071","\115\114\055\082\067\111\077\070\107\057\049\071\067\066\061\061";"\067\108\089\120\111\070\097\087\077\051\072\107\081\121\056\107\121\107\076\049\067\070\079\098\073\107\080\087\102\080\068\121\102\112\068\115\056\081\066\061";"\107\106\051\118\069\109\098\074","\052\105\043\110\114\098\055\100\073\086\102\107\073\108\070\061","\107\057\102\087\115\106\067\049","\066\055\075\117";"\086\106\043\122\051\049\102\086\115\049\049\050\069\117\080\048\107\108\061\061";"\077\048\102\109\079\057\050\089\086\101\102\090\051\109\082\104";"\050\070\086\070\086\102\082\069\107\109\086\122\108\070\087\122\050\081\086\061","\101\081\055\121\115\057\051\049\079\105\061\061";"\116\112\061\061";"\115\053\099\061","\050\074\049\070\067\108\061\061";"\115\114\055\082\067\099\081\082\069\109\098\117\050\106\052\121\107\111\108\061";"\067\088\081\082\085\114\077\078","\069\101\047\082\069\101\052\089","\086\117\051\098\043\048\086\066\067\070\077\082\108\102\067\071\051\105\061\061"}local function I(I)return k[I+(-722903-(-772768))]end for I,Z in ipairs({{364175-364174,-1003006-(-1003086)},{-469760+469761,984898+-984844};{-417142+417197;-546855+546935}})do while Z[154214+-154213]<Z[-323688+323690]do k[Z[572321-572320]],k[Z[-556170-(-556172)]],Z[-611618-(-611619)],Z[-697559+697561]=k[Z[985690+-985688]],k[Z[168780-168779]],Z[67437+-67436]+(15106+-15105),Z[909708+-909706]-(553352-553351)end end do local I=type local Z=table.insert local Q=k local q=string.sub local p=string.char local j={u=-685130-(-685149);i=358865+-358865,w=-630274-(-630305);P=-42391+42396;e=200909+-200886;M=762392+-762379;y=-551827+551868;L=534897-534879,p=-574890-(-574922),J=196923+-196884;q=-537441+537501;c=278867-278863;E=49750-49724;n=-835632+835676;t=-640441-(-640455),F=151460-151408,f=208453-208432,x=-116960-(-117018),h=-319227-(-319270),Y=46407+-46356;["\055"]=-663359-(-663420),v=540317+-540267,s=418305+-418278,["\049"]=-59474+59511;["\051"]=-866478-(-866495),W=18996-18951,r=-422324+422330;j=-623565+623620,H=619738-619728,["\048"]=-1011719-(-1011755);C=387672-387647,A=-910564-(-910566),D=489565-489554,a=-319265-(-319273),R=685617-685584,K=712801-712738,B=98706-98658,G=179742-179696;O=134877+-134847,X=199380-199326;["\052"]=755148-755139;m=51157-51135;Z=-104089+104138,["\056"]=-1033213-(-1033248);U=398849+-398820;V=-544003-(-544023);Q=-755240+755293,z=-210996-(-211052),["\053"]=-661686-(-661689);l=723032+-723016,k=-835156-(-835184);["\047"]=-574080-(-574081),d=-988619-(-988661),N=-409875+409915;b=-1008294-(-1008351);["\043"]=-285132+285144;["\050"]=571603-571579,T=1032999+-1032937;["\057"]=-464658-(-464696);S=-212401-(-212416),g=-734394-(-734441);["\054"]=-191952-(-191986),o=596150+-596143,I=-603582+603641}local y=string.len local F=table.concat local P=math.floor for k=524808-524807,#Q,454849+-454848 do local f=Q[k]if I(f)=="\115\116\114\105\110\103"then local I=y(f)local e={}local Y=979187-979186 local i=-237490-(-237490)local x=779566+-779566 while Y<=I do local k=q(f,Y,Y)local Q=j[k]if Q then i=i+Q*(-133638-(-133702))^((767548+-767545)-x)x=x+(-660953-(-660954))if x==430811+-430807 then x=314077-314077 local k=P(i/(-838396-(-903932)))local I=P((i%(-457233-(-522769)))/(-398348-(-398604)))local Q=i%(-752220+752476)Z(e,p(k,I,Q))i=135281-135281 end elseif k=="\061"then Z(e,p(P(i/(-517710+583246))))if Y>=I or q(f,Y+(-111161-(-111162)),Y+(-474570-(-474571)))~="\061"then Z(e,p(P((i%(-1037079+1102615))/(-924504+924760))))end break end Y=Y+(-939353-(-939354))end Q[k]=F(e)end end end return(function(k,Q,q,p,j,y,F,E,i,T,h,l,Z,f,e,Y,S,A,x,P)i,x,E,l,Y,P,S,Z,e,f,h,A,T=function(k)for I=-506748-(-506749),#k,-11423+11424 do f[k[I]]=f[k[I]]+(-135952-(-135953))end if q then local Z=q(true)local Q=j(Z)Q[I(502325+-552143)],Q[I(351041-400888)],Q[I(142321+-192129)]=k,x,function()return-2950742-(-1032504)end return Z else return p({},{[I(263617+-313464)]=x;[I(744825-794643)]=k,[I(-970138-(-920330))]=function()return 166145+-2084383 end})end end,function(k)local I,Z=187172+-187171,k[512258+-512257]while Z do f[Z],I=f[Z]-(-844909-(-844910)),I+(989983-989982)if f[Z]==-31702+31702 then f[Z],P[Z]=nil,nil end Z=k[I]end end,function(k,I)local Q=i(I)local q=function(...)return Z(k,{...},I,Q)end return q end,function(k,I)local Q=i(I)local q=function(q,p,j,y)return Z(k,{q,p;j;y},I,Q)end return q end,-932556-(-932556),{},function(k)f[k]=f[k]-(877547-877546)if f[k]==892861-892861 then f[k],P[k]=nil,nil end end,function(Z,q,p,j)local a,X,V,H,u,f,D,M,E,G,J,R,d,F,g,z,W,B,s,U,C,Y,b,c,i,r,o,w,N,v,t,x,L,m while Z do if Z<397740+10116985 then if Z<707259+4629386 then if Z<-929819+3710740 then if Z<280037-(-701183)then if Z<193263-(-421327)then if Z<1102782-721422 then if Z<487245+-253125 then i=i+E Y=i<=x w=not g Y=w and Y w=i>=x w=g and w Y=w or Y w=6937390-755840 Z=Y and w Y=2619980-(-154575)Z=Z or Y else F=I(-317778+267979)Z=k[F]Y=P[p[-43353+43354]]i=P[p[836464+-836462]]E=I(434770-484567)g=24220542417077-298151 x=i(E,g)f=Y[x]E=I(-667002+617176)F=Z(f)F=I(-981385-(-931579))Z=k[F]Y=P[p[-434023+434024]]i=P[p[1022682+-1022680]]g=377681+12456664748887 x=i(E,g)f=Y[x]F=Z(f)F={}Z=k[I(-891896+842043)]end else Z=F and 679327+841613 or 14974094-(-873349)end else if Z<378083-(-406765)then if Z<-122317-(-862435)then i=602536+-602511 Y=P[p[1041688-1041686]]f=Y*i Y=14684162432198-360977 F=f+Y f=116380+35184371972452 Z=F%f Y=-103554-(-103555)P[p[-55452+55454]]=Z Z=7533035-943093 f=P[p[1016146+-1016143]]F=f~=Y else f=P[p[253582-253581]]F=#f f=-818848+818848 Z=F==f Z=Z and 898837+-159182 or 10841868-(-571097)end else Z=15272342-315505 g=P[E]F=g end end else if Z<975770+529449 then if Z<2081050-671450 then if Z<-293488+1654645 then Y=I(-687776-(-637933))i=12094786-(-838188)F=14308663-(-482984)f=Y^i Z=F-f F=I(608183-658037)f=Z Z=F/f F={Z}Z=k[I(875336+-925125)]else Z=4558169-(-246112)D=H==m G=D end else f=nil Z=38047+15809396 P[p[322332-322327]]=F end else if Z<-25699+2119490 then F=I(948042+-997903)s=T(2197427-845787,{})Z=k[F]N=I(-88769-(-38968))f=P[p[-161796+161800]]x=I(-835474+785617)i=k[x]w=k[N]N={w(s)}g={Q(N)}w=340772-340770 E=g[w]x=i(E)i=I(636237-686035)Y=f(x,i)f={Y()}F=Z(Q(f))f=F Y=P[p[222176+-222171]]F=Y Z=Y and 12457046-381452 or 2135490-655062 else Z=P[p[-934564+934574]]Y=P[p[80078+-80067]]f[Z]=Y Z=P[p[438022+-438010]]Y={Z(f)}Z=k[I(-814394+764560)]F={Q(Y)}end end end else if Z<652736+3072146 then if Z<-513363+3900503 then if Z<3497182-134143 then if Z<228156+2832068 then P[Y]=X b=-21101-(-21102)C=P[r]t=C+b W=L[t]R=H+W W=-302402+302658 Z=R%W H=Z t=P[a]W=m+t t=-1042028-(-1042284)R=W%t m=R Z=666426+14749360 else Z=3149874-355770 W=317082-317081 R=L[W]X=R end else Y=P[p[205973-205970]]i=-898155-(-898187)s=160665+-160663 f=Y%i x=P[p[662950+-662946]]H=798814+-798801 w=P[p[-757046-(-757048)]]z=P[p[411148+-411145]]u=z-f Z=81020+11331945 z=655188-655156 m=u/z J=H-m N=s^J g=w/N E=x(g)x=107011+4294860285 i=E%x N=908948-908947 E=-329604+329606 x=E^f Y=i/x x=P[p[784371+-784367]]w=Y%N N=4294855465-(-111831)g=w*N E=x(g)x=P[p[603107-603103]]g=x(Y)w=-771481+837017 i=E+g E=-206275+271811 x=i%E g=i-x E=g/w s=-1044964-(-1045220)w=-980230-(-980486)g=x%w N=x-g x=nil f=nil H=-408854-(-409110)w=N/s s=-678134-(-678390)N=E%s i=nil J=E-N s=J/H Y=nil J={g,w;N,s}P[p[-756851-(-756852)]]=J N=nil w=nil g=nil E=nil s=nil end else if Z<-517632+3928662 then H=34776105823785-(-905496)J=I(-62359+12567)g=I(-844245-(-794405))E=k[g]w=P[p[670554-670552]]N=P[p[913903+-913900]]s=N(J,H)g=w[s]x=E[g]s=I(-87097-(-37302))J=-643583+4211473602984 g=P[p[756759+-756757]]w=P[p[175948-175945]]N=w(s,J)E=g[N]J=-753383+25531923377496 i=x[E]g=P[p[893482+-893480]]s=I(-691007-(-641183))w=P[p[978215-978212]]Z=11907290-665327 x=I(-614016+564229)x=i[x]N=w(s,J)E=g[N]x=x(i,E)else Z=T(-177577+6481398,{x})D={Z()}F={Q(D)}Z=k[I(260266-310085)]end end else if Z<-752981+5487443 then if Z<4423222-(-230612)then if Z<4711911-896686 then Z=P[p[-730945-(-730946)]]Y=q[718189-718187]f=q[-94324+94325]i=Z Z=i[Y]Z=Z and 8210694-1028519 or-94999+10696115 else c=c+M z=c<=d a=not B z=a and z a=c>=d a=B and a z=a or z a=1035184+14793801 Z=z and a z=-924121+13555658 Z=Z or z end else a=-139335-(-139336)c=-1040094+1040095 d=#u z=i(c,d)c=g(u,z)Z=314660+11607633 d=P[m]B=c-a M=w(B)z=nil d[c]=M c=nil end else if Z<349387+4480410 then P[Y]=G Z=P[Y]Z=Z and 6003169-995367 or-982145+10832869 else Z=27595+14222642 end end end end else if Z<7282431-(-412328)then if Z<-187966+6482713 then if Z<7044666-980993 then if Z<-1006180+6876309 then if Z<5976038-151611 then M=e()B=I(414741-464589)P[M]=G a=-26830-(-26930)r=-871417-(-871672)F=k[B]b=383645-383645 B=I(660017-709810)o=238266+-238265 Z=F[B]B=-734803-(-734804)F=Z(B,a)B=e()P[B]=F a=379686+-379686 Z=P[w]F=Z(a,r)a=e()V=-238919+248919 r=583466+-583465 P[a]=F L=-352898+352900 Z=P[w]v=P[B]F=Z(r,v)r=e()P[r]=F F=P[w]v=F(o,L)F=690825+-690824 Z=v==F v=e()L=I(964081-1013898)P[v]=Z W=I(733833+-783690)F=I(-66441+16643)Z=I(581230-631065)R=k[W]t=P[w]C={t(b,V)}W=R(Q(C))Z=z[Z]R=I(313890+-363707)X=W..R o=L..X L=I(45291-95092)Z=Z(z,F,o)o=e()X=A(11365708-182358,{w,M;J,i;Y;c;v,o,B;r;a;s})P[o]=Z F=k[L]L={F(X)}Z={Q(L)}L=Z Z=P[v]Z=Z and 1003232+11578048 or 780041+15013747 else x=I(-223946-(-174140))J=32153241194575-792019 i=k[x]g=P[p[20515+-20513]]s=I(721557+-771357)w=P[p[-975468+975471]]N=w(s,J)Z=12285379-1043416 E=g[N]x=i(E)x=I(-25334+-24511)i=P[p[-278980+278985]]x=i[x]x=x(i)x=I(-362405-(-312591))i=k[x]x=i()end else z=l(10413846-(-681051),{})J=151401+-151398 s=e()P[s]=F Z=P[w]H=944454-944389 F=Z(J,H)J=e()Z=615872+-615872 P[J]=F u=I(-411258-(-361457))H=Z F=k[u]Z=244740-244740 u={F(z)}m=Z Z={Q(u)}U=I(560533-610390)u=Z F=-100009+100011 Z=u[F]F=I(-367990-(-318129))z=Z Z=k[F]c=P[i]D=k[U]U=D(z)D=I(-1044282-(-994484))G=c(U,D)c={G()}F=Z(Q(c))c=e()P[c]=F F=-164149-(-164150)G=P[J]Z=-35142+11106531 D=G G=-528173+528174 U=G G=-283230+283230 d=U<G G=F-U end else if Z<-735239+6923358 then if Z<6598308-481558 then Z=R F=X Z=787975+11346607 else Y=i N=138980-138980 Z=P[p[-68976+68977]]s=701099-700844 w=Z(N,s)f[Y]=w Z=-950120+1153641 Y=nil end else x=nil g=nil Z=9999162-849999 w=nil end end else if Z<6184615-(-781875)then if Z<380364+6156065 then if Z<5725088-(-608202)then Z=8534404-(-957707)else Z=Y and 6634568-789594 or 2604195-(-785340)end else Y=P[p[-180122+180125]]i=-736454-(-736704)f=Y*i Y=930730-930473 F=f%Y Z=15473534-(-352810)P[p[926481+-926478]]=F end else if Z<-324239+7515478 then Z=-976160+10125323 else Z=J Z=s and 68984+5950297 or 8336957-(-126863)F=s end end end else if Z<9728900-249737 then if Z<9693004-881379 then if Z<9161367-690355 then if Z<8958855-1009537 then Z=true P[p[-755995-(-755996)]]=Z Z=k[I(-569071+519251)]F={}else Z=6255046-235765 J=I(-341721-(-291859))s=k[J]F=s end else f=I(-715945-(-666103))Z=k[f]i=357294-357294 Y=P[p[115668+-115660]]f=Z(Y,i)Z=-377402+11833535 end else if Z<8382216-(-980247)then F={Y}Z=k[I(218565-268414)]else J=J+H u=not m N=J<=s N=u and N u=J>=s u=m and u N=u or N u=14131175-(-984685)Z=N and u N=7047601-813657 Z=Z or N end end else if Z<10013730-155129 then if Z<10372013-547900 then if Z<-1012988+10690201 then Z=true Z=Z and-462188+10268156 or 14061684-219846 else F=I(-641044+591242)Z=k[F]f=I(-683349-(-633533))F=k[f]f=I(984038+-1033854)k[f]=Z f=I(176838-226640)Z=9489761-(-2350)k[f]=F f=P[p[-763771-(-763772)]]Y=f()end else Z=true Z=8070+3646501 end else if Z<11318430-1043277 then Z=true Z=Z and 15108057-21368 or 501621+11400330 else F=P[p[99687+-99686]]g=773581+31159914719968 E=I(-866273+816417)Y=P[p[-671973+671975]]i=P[p[36003+-36000]]x=i(E,g)f=Y[x]Z=F[f]f=Z Z=false F=I(-735960+686148)Y=Z Z=k[F]E=P[p[-244740-(-244744)]]g={Z(E)}F=g[-905229+905230]x=g[520398-520395]E=F i=g[875078-875076]Z=-953118+13162854 end end end end end else if Z<35699+12595302 then if Z<10917487-(-562780)then if Z<-720340+11890608 then if Z<646620+10290586 then if Z<830556+9933362 then if Z<10284797-(-274523)then N=507034+26259417330473 w=I(809367+-859172)F=I(-783188-(-733361))Y=I(726872+-776712)Z=k[F]f=k[Y]x=P[p[217177+-217176]]E=P[p[998710-998708]]g=E(w,N)i=x[g]x=I(-267-49524)x=f[x]Y={x(f,i)}F=Z(Q(Y))Z=F()F={}Z=k[I(298275+-348133)]else Z={}w=-330691-(-330946)P[p[779464+-779462]]=Z F=P[p[921220-921217]]N=I(-987540-(-937715))E=-534472+35184372623304 x=F F=Y%E P[p[-485636-(-485640)]]=F g=Y%w J=310694+-310693 H=J w=-887746+887748 E=g+w P[p[-420853-(-420858)]]=E w=k[N]N=I(-620954+571126)g=w[N]J=-689306+689306 w=g(f)Z=9012404-(-354894)g=I(-1047936-(-998106))m=H<J N=-434583+434584 J=N-H i[Y]=g g=373412+-373360 s=w end else C=-1004247-(-1004248)R=Z t=L[C]C=false W=t==C Z=W and-840534+16857665 or 5946827-(-125136)X=W end else if Z<10986942-(-101724)then if Z<-733296+11734335 then Z=true Z=Z and 13154696-529416 or-402644+4057215 else G=G+U F=G<=D M=not d F=M and F M=G>=D M=d and M F=M or F M=6687620-900203 Z=F and M F=-91284+13336200 Z=Z or F end else i=-327535+2657090 Y=I(-256349-(-206486))f=Y^i F=11091333-(-997369)Z=F-f F=I(-910996-(-861200))f=Z Z=F/f F={Z}Z=k[I(-533362+483577)]end end else if Z<11592830-176302 then if Z<166678+11203697 then if Z<-780772+11973325 then E=894496-894494 x=-443187+443188 Y=P[p[718635+-718634]]i=Y(x,E)Y=-493541+493542 f=i==Y Z=f and-367290-(-906328)or-775412+14404787 F=f else Z=k[I(-531750+481939)]f=nil Y=nil F={}end else i=I(-830543-(-780702))Y=k[i]i=I(-181322+131499)f=Y[i]Z=k[I(-910757-(-860918))]i=P[p[193360+-193359]]Y={f(i)}F={Q(Y)}end else if Z<331987+11124283 then i=P[p[-293811+293820]]x=i Z={}Y=113602+-113601 i=-304066+304067 E=i i=-396099-(-396099)f=Z g=E<i i=Y-E Z=-36600-(-240121)else d=I(145367-195169)Z=k[d]d=I(-893930+844114)k[d]=Z Z=12680568-339055 end end end else if Z<11835092-(-337158)then if Z<12811142-716250 then if Z<11616194-(-334266)then if Z<11277507-(-629816)then Z=k[I(-129305-(-79484))]F={}else d=-776273-(-776273)c=#u z=c==d Z=z and 16360440-(-149773)or 5316453-610675 end else i=P[p[976622+-976616]]Z=732245-(-748183)Y=i==f F=Y end else if Z<182992+11916868 then w=nil g=nil Z=-504730+12714466 else Z=-942094+16357880 P[Y]=F end end else if Z<13060911-577354 then if Z<13113855-785536 then if Z<12787519-582198 then u=I(437557-487398)m=k[u]u=I(-788684-(-738822))H=m[u]Z=-19180+7358681 s=H else x,w=E(i,x)Z=x and 179291+14940423 or 6354205-(-111105)end else Z=10777274-604024 end else if Z<-350536+12965912 then X=P[Y]Z=X and 275302+10545686 or-417611+12552193 F=X else Z=378009+9795241 end end end end else if Z<14638961-(-475659)then if Z<14639708-1020672 then if Z<-217085+13535917 then if Z<13979875-941792 then if Z<-941333+13821266 then Z=-322210+5027988 d=-582134+582134 c=#u z=c==d else U=I(-1039512-(-989655))Z=k[U]M=I(738378+-788194)d=k[M]U=Z(d)Z=I(-456670+406868)k[Z]=U Z=-426263+12767776 end else D=P[Y]Z=D and 1434120-63780 or 5287393-483112 G=D end else if Z<-293254+13832955 then F=I(409868-459710)f=I(-124712+74861)Z=k[F]F=Z(f)Z=k[I(262829+-312689)]F={}else Y=e()x=e()Z=true f=q i=I(-182188-(-132363))P[Y]=Z F=k[i]i=I(-143989+94176)Z=F[i]w=I(-494827+445026)i=e()P[i]=Z Z=h(12484175-(-1034304),{})P[x]=Z E=e()N=T(-576700+8287466,{E})Z=false P[E]=Z g=k[w]w=g(N)F=w Z=w and-169869+982470 or 14294211-(-662626)end end else if Z<14731320-187059 then if Z<14394291-424193 then if Z<14708289-900914 then Y=P[p[709515+-709513]]i=P[p[147299+-147296]]f=Y==i Z=-37476+576514 F=f else F={}Z=k[I(575131-624941)]end else H=nil Y=S(Y)N=nil N=I(831606-881447)i=S(i)w=S(w)c=S(c)J=S(J)z=nil x=S(x)s=S(s)Y=nil m=nil x=e()u=nil E=S(E)i=nil P[x]=Y w=I(492932+-542780)u={}Y=e()P[Y]=i g=nil g=I(453184-503032)E=k[g]g=I(248736-298582)i=E[g]E=e()P[E]=i z=-895901+895902 g=k[w]w=I(700124-749917)i=g[w]w=k[N]s=I(-584213+534388)N=I(164563-214386)g=w[N]J=e()H={}c=963171-962915 N=k[s]s=I(-271530+221693)w=N[s]s=e()N=-105952+105952 m=e()P[s]=N N=-813504-(-813506)d=c P[J]=N N={}P[m]=H H=-94641+94641 Z=4932324-417581 c=238378+-238377 M=c c=222005-222005 B=M<c c=z-M end else if Z<-352144+15412493 then w=I(-488254+438406)g=F N=I(152111+-201952)F=k[w]w=I(-495531+445738)Z=F[w]m=I(74902-124743)w=e()P[w]=Z F=k[N]N=I(-862147+812359)Z=F[N]J=Z H=k[m]s=H N=Z Z=H and 12412649-217418 or-1006196+8345697 else Z=P[w]d=836694+-836688 U=872868-872867 D=Z(U,d)Z=I(-452353-(-402551))d=I(-788133+738331)k[Z]=D U=k[d]d=-391824-(-391826)Z=U>d Z=Z and 828552+12076351 or 10990804-(-468795)end end end else if Z<15166152-(-635072)then if Z<15396610-(-118429)then if Z<-220597+15532536 then if Z<680056+14439204 then U=I(-771999-(-722174))D=k[U]U=I(829433-879248)Z=8352185-(-1015113)G=D[U]N=J D=G(f,N)G=P[p[464001-463995]]U=G()c=D+U z=c+g c=-200224+200480 u=z%c N=nil g=u c=i[Y]U=-576572+576573 D=g+U G=x[D]z=c..G i[Y]=z else g=x Z=f==w Z=Z and 15969658-441660 or 11284171-(-810728)end else B=S(B)Z=713975+10357414 L=nil a=S(a)r=S(r)v=S(v)o=S(o)M=S(M)end else if Z<1031541+14662563 then g=nil Z=true w=nil Y=Z Z=5468133-(-997177)else R=P[Y]Z=R and 2331092-(-992760)or 2726929-(-67175)X=R end end else if Z<-639128+16487199 then if Z<521008+15319368 then if Z<-254720+16082799 then i=132583-132582 Y=P[p[669719-669716]]f=Y~=i Z=f and 2814326-(-566013)or 6106559-(-483383)else z=c a=z Z=262626+4252117 u[z]=a z=nil end else Z=P[p[-367480-(-367487)]]Z=Z and-463226+8943609 or 555043+10901090 end else if Z<182681+15876972 then C=232301-232299 t=L[C]C=P[o]W=t==C Z=-696574+6768537 X=W else c=e()z={}B=I(784309+-834141)P[c]=z L=I(-945030-(-895178))H=nil d=l(-1043119+1787994,{c;s;J,E})M=e()z=e()W=nil P[z]=d d={}a={}v=I(-698734-(-648916))P[M]=d w=nil d=k[B]w=I(-673467-(-623627))o=P[M]r={[v]=o,[L]=W}u=nil E=S(E)B=d(a,r)i=nil P[x]=B g=nil d=h(-618807+4422640,{M,c,m;s;J,z})s=S(s)c=S(c)J=S(J)P[Y]=d M=S(M)z=S(z)N=nil m=S(m)E=I(-287808-(-237981))i=k[E]g=k[w]s=P[x]J=P[Y]u=30724189018596-(-237055)m=I(-312045-(-262190))H=J(m,u)z=23127519938805-630500 N=s[H]J=I(-951860+902031)u=I(-10271+-39588)H=-13651+32240422465528 s=I(-141387+91596)s=g[s]w={s(g,N)}E=i(Q(w))i=E()w=P[x]c=I(666792+-716586)N=P[Y]s=N(J,H)g=w[s]s=I(-117080-(-67249))N=k[s]Z=k[I(428988-478791)]J=P[x]H=P[Y]m=H(u,z)s=J[m]w=N[s]s=-986248-(-986548)E=I(-109386-(-59542))J=31566-31386 E=i[E]N={w(s,J)}m=I(1038230+-1088034)u=19193988966410-(-359135)E=E(i,g,Q(N))d=8850141651314-708953 g=e()P[g]=E E=P[g]s=P[x]J=P[Y]H=J(m,u)N=s[H]a=702184+34224782002009 H=I(-899641+849810)J=k[H]w=I(583352+-633190)m=P[x]u=P[Y]z=u(c,d)H=m[z]s=J[H]H=.1 m=11645+-11645 u=.15 c=-175290+2607811948920 z=-467682-(-467682)w=E[w]J={s(H,m,u,z)}u=23991123107219-(-183824)w=w(E,N,Q(J))m=I(638999-688832)E=e()P[E]=w s=P[x]J=P[Y]i=nil H=J(m,u)N=s[H]J=P[x]u=I(533700-583507)H=P[Y]z=11069126696917-(-488525)m=H(u,z)s=J[m]H=P[x]d=26156534544726-854466 m=P[Y]z=I(725275+-775139)u=m(z,c)J=H[u]c=I(908075-957861)m=P[x]u=P[Y]z=u(c,d)H=m[z]r=20204741533318-31174 w={N,s,J;H}N=e()z=I(-874154-(-824364))P[N]=w w=P[g]H=P[x]c=33252336936404-(-825000)m=P[Y]u=m(z,c)J=H[u]u=I(451561-501392)m=k[u]z=P[x]c=P[Y]M=I(-681495+631686)d=c(M,a)s=I(-364006+314156)s=w[s]u=z[d]z=177689+-177689 H=m[u]d=-970901-(-970901)u=.1 c=.65 m=H(u,z,c,d)H=h(10265344-(-175335),{E,x,Y,N;g})d=844194+5838747085052 s=s(w,J,m,H)E=S(E)c=I(354261-404097)w=P[g]m=P[x]u=P[Y]z=u(c,d)H=m[z]a=I(456843-506665)s=nil z=I(936628-986459)u=k[z]J=I(-889362-(-839512))c=P[x]N=S(N)J=w[J]d=P[Y]M=d(a,r)z=c[M]d=.65 c=972767+-972767 M=-883201+883201 m=u[z]z=.55 u=m(z,c,d,M)m=A(-221337-(-488269),{x;Y})g=S(g)F={}J=J(w,H,u,m)w=l(132225+10404146,{x,Y})Y=S(Y)J=I(-929266+879452)k[J]=w x=S(x)end end end end end end end Z=#j return Q(F)end,function()Y=Y+(-147356+147357)f[Y]=-333861-(-333862)return Y end,{},function(k,I)local Q=i(I)local q=function(q,p,j,y,F)return Z(k,{q;p;j,y;F},I,Q)end return q end,function(k,I)local Q=i(I)local q=function()return Z(k,{},I,Q)end return q end,function(k,I)local Q=i(I)local q=function(q)return Z(k,{q},I,Q)end return q end return(E(13324356-(-279684),{}))(Q(F))end)(getfenv and getfenv()or _ENV,unpack or table[I(470750+-520612)],newproxy,setmetatable,getmetatable,select,{...})end)(...)
+--[[
+    Celestite UI Library - V2 (Clean Rewrite)
+    CSGO Gamesense/Splix Style | ScreenGui Based
+]]
+
+local Players = game:GetService("Players")
+local UIS = game:GetService("UserInputService")
+local TweenService = game:GetService("TweenService")
+local CoreGui = game:GetService("CoreGui")
+local HttpService = game:GetService("HttpService")
+
+-------------------------------------------------
+-- CONFIGURATION
+-------------------------------------------------
+local Library = { Config = { Font = "Proggy", FontSize = 12 } } 
+
+-------------------------------------------------
+-- UTILITIES
+-------------------------------------------------
+local function Tween(obj, props, time)
+    TweenService:Create(obj, TweenInfo.new(time or 0.15, Enum.EasingStyle.Quad), props):Play()
+end
+
+-- Base64 Decoder (Fallback)
+local b64chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+local function decodeBase64(data)
+    data = string.gsub(data, '[^'..b64chars..'=]', '')
+    return (data:gsub('.', function(x)
+        if (x == '=') then return '' end
+        local r,f='',(b64chars:find(x)-1)
+        for i=6,1,-1 do r=r..(f%2^i-f%2^(i-1)>0 and '1' or '0') end
+        return r;
+    end):gsub('%d%d%d%d%d%d%d%d', function(x)
+        local c=0
+        for i=1,8 do c=c+(x:sub(i,i)=='1' and 2^(8-i) or 0) end
+        return string.char(c)
+    end))
+end
+
+local b64decode = base64_decode or (crypt and crypt.base64decode) or decodeBase64
+
+local function IsWithin(obj, input)
+    local pos = obj.AbsolutePosition
+    local size = obj.AbsoluteSize
+    local mPos = input.Position
+    return mPos.X >= pos.X and mPos.X <= pos.X + size.X and mPos.Y >= pos.Y and mPos.Y <= pos.Y + size.Y
+end
+
+-------------------------------------------------
+-- FONT LOADING
+-------------------------------------------------
+local LoadedFonts = {}
+
+local function LoadFonts()
+    local fonts = {
+        {"Proggy", "https://raw.githubusercontent.com/OxygenClub/Random-LUAS/main/Proggy.txt"},
+        {"Verdana", "https://raw.githubusercontent.com/OxygenClub/Random-LUAS/main/Verdana.txt"},
+        {"VerdanaBold", "https://raw.githubusercontent.com/OxygenClub/Random-LUAS/main/Verdana%20Bold.txt"},
+        {"Tahoma", "https://raw.githubusercontent.com/OxygenClub/Random-LUAS/main/Tahoma.txt"}
+    }
+    
+    for _, f in pairs(fonts) do
+        local name, url = f[1], f[2]
+        local success, err = pcall(function()
+            local ttf_path = name .. ".ttf"
+            local json_path = name .. ".json"
+            
+            if not isfile(ttf_path) then 
+                writefile(ttf_path, b64decode(game:HttpGet(url))) 
+            end
+            
+            if not isfile(json_path) then
+                local data = { 
+                    name = name, 
+                    faces = { 
+                        { name = "Regular", weight = 400, style = "normal", assetId = getcustomasset(ttf_path) } 
+                    } 
+                }
+                writefile(json_path, HttpService:JSONEncode(data))
+            end
+            
+            LoadedFonts[name] = Font.new(getcustomasset(json_path), Enum.FontWeight.Regular)
+        end)
+        if not success then warn("Failed to load font " .. name .. ": " .. tostring(err)) end
+    end
+end
+LoadFonts()
+
+local function GetFont() 
+    return LoadedFonts[Library.Config.Font] or Font.fromEnum(Enum.Font.Code) 
+end
+
+-------------------------------------------------
+-- LIBRARY CORE
+-------------------------------------------------
+Library.Registry = {}
+Library.Keys = {
+    ["Unknown"] = "Unknown",
+    ["MouseButton1"] = "M1", ["MouseButton2"] = "M2", ["MouseButton3"] = "M3",
+    ["Backspace"] = "Back", ["Tab"] = "Tab", ["Return"] = "Ent", ["Pause"] = "Pse",
+    ["Escape"] = "Esc", ["Space"] = "Spc", ["QuotedDouble"] = "\"", ["Hash"] = "#",
+    ["Dollar"] = "$", ["Percent"] = "%", ["Ampersand"] = "&", ["Quote"] = "'",
+    ["LeftParenthesis"] = "(", ["RightParenthesis"] = ")", ["Asterisk"] = "*",
+    ["Plus"] = "+", ["Comma"] = ",", ["Minus"] = "-", ["Period"] = ".", ["Slash"] = "/",
+    ["Colon"] = ":", ["Semicolon"] = ";", ["LessThan"] = "<", ["GreaterThan"] = ">",
+    ["Question"] = "?", ["Equals"] = "=", ["At"] = "@", ["LeftBracket"] = "[",
+    ["RightBracket"] = "]", ["BackSlash"] = "\\", ["Caret"] = "^", ["Underscore"] = "_",
+    ["Backquote"] = "`", ["LeftCurly"] = "{", ["Pipe"] = "|", ["RightCurly"] = "}",
+    ["Tilde"] = "~", ["Delete"] = "Del", ["End"] = "End", ["Home"] = "Hm",
+    ["Insert"] = "Ins", ["PageUp"] = "PgU", ["PageDown"] = "PgD",
+    ["KeypadZero"] = "Num0", ["KeypadOne"] = "Num1", ["KeypadTwo"] = "Num2",
+    ["KeypadThree"] = "Num3", ["KeypadFour"] = "Num4", ["KeypadFive"] = "Num5",
+    ["KeypadSix"] = "Num6", ["KeypadSeven"] = "Num7", ["KeypadEight"] = "Num8",
+    ["KeypadNine"] = "Num9", ["KeypadPeriod"] = "Num.", ["KeypadDivide"] = "Num/",
+    ["KeypadMultiply"] = "Num*", ["KeypadMinus"] = "Num-", ["KeypadPlus"] = "Num+",
+    ["KeypadEnter"] = "NumEnt", ["RightShift"] = "RShift", ["LeftShift"] = "LShift",
+    ["RightControl"] = "RCtrl", ["LeftControl"] = "LCtrl", ["LeftAlt"] = "LAlt", ["RightAlt"] = "RAlt"
+}
+
+local function GetKeyName(k)
+    local name = k.Name or tostring(k):gsub("Enum.UserInputType.", ""):gsub("Enum.KeyCode.", "")
+    if Library.Keys[name] then return Library.Keys[name] end
+    return name:gsub(" ", "")
+end
+
+UIS.InputBegan:Connect(function(input, gpe)
+    local cur = (input.UserInputType == Enum.UserInputType.Keyboard) and input.KeyCode or input.UserInputType
+    for _, bind in pairs(Library.Registry) do
+        if bind.Binding then
+            if cur ~= Enum.KeyCode.Unknown then
+                if cur == Enum.UserInputType.MouseButton1 and tick() - bind.Started < 0.1 then continue end
+                bind.Binding = false
+                bind.Key = cur
+                bind.Label.TextColor3 = Library.Theme.TextWhite
+                bind.Label.Text = GetKeyName(cur)
+                if bind.Callback then bind.Callback(cur) end
+            end
+        elseif cur == bind.Key then
+            if not gpe or (cur ~= Enum.UserInputType.MouseButton1 and cur ~= Enum.UserInputType.MouseButton2) then
+                bind.OnTrigger()
+            end
+        end
+    end
+end)
+
+Library.Theme = {
+    Background = Color3.fromRGB(16, 16, 16),
+    DarkBackground = Color3.fromRGB(12, 12, 12),
+    Accent = Color3.fromRGB(100, 140, 230),
+    Inline = Color3.fromRGB(60, 60, 60),
+    Outline = Color3.fromRGB(5, 5, 5),
+    Text = Color3.fromRGB(255, 255, 255),
+    InactiveText = Color3.fromRGB(180, 180, 180),
+    SectionBackground = Color3.fromRGB(35, 35, 35)
+}
+
+Library.Elements = { Toggles = {}, Sliders = {}, Sections = {}, Tabs = {}, Windows = {}, Labels = {}, Dropdowns = {}, Outlines = {}, Inlines = {}, ColorPickers = {}, Buttons = {}, TextBoxes = {} }
+Library.Flags = {}
+
+function Library:UpdateTheme()
+    for _, win in pairs(Library.Elements.Windows) do 
+        win.Main.BackgroundColor3 = Library.Theme.DarkBackground; 
+        win.TitleBar.BackgroundColor3 = Library.Theme.Background; 
+        win.Content.BackgroundColor3 = Library.Theme.Background; 
+        win.AccentLine.BackgroundColor3 = Library.Theme.Accent 
+    end
+    for _, sec in pairs(Library.Elements.Sections) do 
+        sec.Frame.BackgroundColor3 = Library.Theme.DarkBackground; 
+        sec.Header.TextColor3 = Library.Theme.Text;
+    end
+    for _, tog in pairs(Library.Elements.Toggles) do 
+        tog.Box.BackgroundColor3 = tog.GetState() and Library.Theme.Accent or Library.Theme.SectionBackground
+        tog.Label.TextColor3 = tog.GetState() and Library.Theme.Text or Library.Theme.InactiveText
+    end
+    for _, sli in pairs(Library.Elements.Sliders) do 
+        sli.Fill.BackgroundColor3 = Library.Theme.Accent 
+        sli.Label.TextColor3 = Library.Theme.Text
+        sli.Value.TextColor3 = Library.Theme.Text
+    end
+    for _, drop in pairs(Library.Elements.Dropdowns) do
+        if drop.Box then drop.Box.BackgroundColor3 = Library.Theme.SectionBackground end
+        if drop.Label then drop.Label.TextColor3 = Library.Theme.Text end
+        if drop.ValueLabel then drop.ValueLabel.TextColor3 = Library.Theme.Text end
+        if drop.Arrow then drop.Arrow.TextColor3 = Library.Theme.Text end
+        drop.Container.BackgroundColor3 = Library.Theme.DarkBackground
+        for _, btn in pairs(drop.Buttons) do 
+            btn.TextColor3 = Library.Theme.Text
+            if btn:IsA("TextButton") then btn.BackgroundColor3 = Library.Theme.DarkBackground end
+        end
+    end
+    for _, cp in pairs(Library.Elements.ColorPickers) do
+        cp.Frame.BackgroundColor3 = Library.Theme.SectionBackground
+        if cp.Picker then cp.Picker.BackgroundColor3 = Library.Theme.DarkBackground end
+    end
+    for _, tab in pairs(Library.Elements.Tabs) do 
+        tab.Accent.BackgroundColor3 = Library.Theme.Accent 
+        Tween(tab.Button, {TextColor3 = tab.IsActive() and Library.Theme.Text or Library.Theme.InactiveText})
+    end
+    for _, lab in pairs(Library.Elements.Labels) do
+        lab.TextColor3 = Library.Theme.Text
+    end
+    for _, btn in pairs(Library.Elements.Buttons) do
+        btn.BackgroundColor3 = Library.Theme.SectionBackground
+    end
+    for _, txt in pairs(Library.Elements.TextBoxes) do
+        txt.Box.BackgroundColor3 = Library.Theme.SectionBackground
+        txt.Input.TextColor3 = Library.Theme.Text
+    end
+    for _, sli in pairs(Library.Elements.Sliders) do 
+        sli.Fill.BackgroundColor3 = Library.Theme.Accent 
+        sli.Label.TextColor3 = Library.Theme.Text
+        sli.Value.TextColor3 = Library.Theme.Text
+        if sli.Back then sli.Back.BackgroundColor3 = Library.Theme.SectionBackground end
+    end
+    for _, out in pairs(Library.Elements.Outlines) do out.Color = Library.Theme.Outline end
+    for _, inl in pairs(Library.Elements.Inlines) do inl.Color = Library.Theme.Inline end
+    for _, win in pairs(Library.Elements.Windows) do win.Main.BackgroundColor3 = Library.Theme.DarkBackground end
+    for _, sec in pairs(Library.Elements.Sections) do sec.Frame.BackgroundColor3 = Library.Theme.DarkBackground end
+    for _, btn in pairs(Library.Elements.Buttons) do btn.BackgroundColor3 = Library.Theme.SectionBackground end
+    for _, drop in pairs(Library.Elements.Dropdowns) do if drop.Box then drop.Box.BackgroundColor3 = Library.Theme.SectionBackground end end
+end
+
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Name = "CelestiteUI"
+ScreenGui.ResetOnSpawn = false
+ScreenGui.DisplayOrder = 999
+ScreenGui.Parent = (gethui and gethui()) or CoreGui
+
+local function AddOutline(inst)
+    local out = Instance.new("UIStroke")
+    out.Name = "Outline"
+    out.Color = Library.Theme.Outline
+    out.Thickness = 1
+    out.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+    out.Parent = inst
+    table.insert(Library.Elements.Outlines, out)
+    return out
+end
+
+local function AddInlineOutline(inst)
+    local inner = Instance.new("Frame")
+    inner.Name = "InlineBorder"
+    inner.Size = UDim2.new(1, -2, 1, -2)
+    inner.Position = UDim2.new(0, 1, 0, 1)
+    inner.BackgroundTransparency = 1
+    inner.BorderSizePixel = 0
+    inner.ZIndex = inst.ZIndex -- Same as parent to stay behind content
+    inner.Parent = inst
+    
+    local inl = Instance.new("UIStroke")
+    inl.Name = "Inline"
+    inl.Color = Library.Theme.Inline
+    inl.Thickness = 1
+    inl.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+    inl.Parent = inner
+    table.insert(Library.Elements.Inlines, inl)
+    return inl
+end
+
+local function ApplyCelestiteStyle(inst)
+    AddOutline(inst)
+    AddInlineOutline(inst)
+end
+
+local NotifHolder = Instance.new("Frame")
+NotifHolder.Name = "NotifHolder"
+NotifHolder.Size = UDim2.new(0, 250, 1, -40)
+NotifHolder.Position = UDim2.new(0, 10, 0, 10)
+NotifHolder.BackgroundTransparency = 1
+NotifHolder.Parent = ScreenGui
+
+local NotifList = Instance.new("UIListLayout")
+NotifList.Padding = UDim.new(0, 5)
+NotifList.SortOrder = Enum.SortOrder.LayoutOrder
+NotifList.Parent = NotifHolder
+
+function Library:Notification(opts)
+    local text = opts.Text or "Notification"
+    local duration = opts.Duration or 5
+    
+    local Holder = Instance.new("Frame")
+    Holder.Size = UDim2.new(1, 0, 0, 24)
+    Holder.BackgroundColor3 = Library.Theme.DarkBackground
+    Holder.BorderSizePixel = 0
+    Holder.Parent = NotifHolder
+    Holder.Position = UDim2.new(-1.2, 0, 0, 0)
+    
+    AddOutline(Holder)
+    AddInlineOutline(Holder)
+    
+    local Accent = Instance.new("Frame")
+    Accent.Size = UDim2.new(0, 2, 1, 0)
+    Accent.BackgroundColor3 = Library.Theme.Accent
+    Accent.BorderSizePixel = 0
+    Accent.ZIndex = 5
+    Accent.Parent = Holder
+    
+    local TLabel = Instance.new("TextLabel")
+    TLabel.Text = text
+    TLabel.Size = UDim2.new(1, -15, 1, 0)
+    TLabel.Position = UDim2.new(0, 10, 0, 0)
+    TLabel.BackgroundTransparency = 1
+    TLabel.TextColor3 = Library.Theme.Text
+    TLabel.FontFace = GetFont()
+    TLabel.TextSize = Library.Config.FontSize
+    TLabel.TextXAlignment = Enum.TextXAlignment.Left
+    TLabel.Parent = Holder
+    TLabel.TextStrokeTransparency = 0
+    TLabel.TextStrokeColor3 = Color3.fromRGB(0,0,0)
+    TLabel.ZIndex = 5
+    
+    Tween(Holder, {Position = UDim2.new(0, 0, 0, 0)}, 0.3)
+    
+    task.delay(duration, function()
+        Tween(Holder, {Position = UDim2.new(-1.2, 0, 0, 0)}, 0.3)
+        task.wait(0.3)
+        Holder:Destroy()
+    end)
+end
+
+local function Create(class, props, children)
+    local inst = Instance.new(class)
+    if class == "TextLabel" or class == "TextButton" or class == "TextBox" then
+        inst.TextSize = Library.Config.FontSize
+        inst.FontFace = GetFont()
+    end
+    for k, v in pairs(props or {}) do 
+        if k == "FontFace" then inst.FontFace = GetFont()
+        elseif k == "TextSize" then inst.TextSize = v
+        elseif k == "Parent" then -- Handled later
+        else inst[k] = v end
+    end
+    if props.Parent then inst.Parent = props.Parent end
+    for _, c in pairs(children or {}) do c.Parent = inst end
+    return inst
+end
+
+-- Using optimized Frame-based borders defined at top
+
+function Library:Window(title, size)
+    local Window = { Tabs = {} }
+    local Main = Create("Frame", { Name = "CelestiteWindow", Size = size or UDim2.new(0, 620, 0, 460), Position = UDim2.new(0.5, -310, 0.5, -230), BackgroundColor3 = Library.Theme.DarkBackground, BorderSizePixel = 0, Parent = ScreenGui, ClipsDescendants = false })
+    AddInlineOutline(Main, Library.Theme.Inline, Library.Theme.Outline)
+    local AccentLine = Create("Frame", { Name = "AccentLine", Size = UDim2.new(1, -2, 0, 1), Position = UDim2.new(0, 1, 0, 1), BackgroundColor3 = Library.Theme.Accent, BorderSizePixel = 0, ZIndex = 10, Parent = Main })
+    local TitleBar = Create("Frame", { Name = "TitleBar", Size = UDim2.new(1, -4, 0, 26), Position = UDim2.new(0, 2, 0, 3), BackgroundColor3 = Library.Theme.Background, BorderSizePixel = 0, ZIndex = 2, Parent = Main })
+    AddInlineOutline(TitleBar, Library.Theme.Inline, Library.Theme.Outline)
+    Create("TextLabel", { Name = "Title", Text = title or "Celestite", Size = UDim2.new(0, 0, 1, 0), AutomaticSize = Enum.AutomaticSize.X, Position = UDim2.new(0, 8, 0, 0), BackgroundTransparency = 1, FontFace = true, TextSize = Library.Config.FontSize, TextColor3 = Library.Theme.Text, TextXAlignment = Enum.TextXAlignment.Left, ZIndex = 3, Parent = TitleBar, TextStrokeTransparency = 0, TextStrokeColor3 = Color3.fromRGB(0,0,0) })
+    
+    local TabBar = Create("Frame", { Name = "TabBar", Size = UDim2.new(1, -100, 1, 0), Position = UDim2.new(0, 100, 0, 0), BackgroundTransparency = 1, ZIndex = 2, Parent = TitleBar })
+    Create("UIListLayout", { FillDirection = Enum.FillDirection.Horizontal, HorizontalAlignment = Enum.HorizontalAlignment.Right, VerticalAlignment = Enum.VerticalAlignment.Center, SortOrder = Enum.SortOrder.LayoutOrder, Padding = UDim.new(0, 10), Parent = TabBar })
+    Create("UIPadding", { PaddingRight = UDim.new(0, 10), Parent = TabBar })
+    
+    local ContentArea = Create("Frame", { Name = "Content", Size = UDim2.new(1, -4, 1, -35), Position = UDim2.new(0, 2, 0, 33), BackgroundColor3 = Library.Theme.Background, BorderSizePixel = 0, ClipsDescendants = false, ZIndex = 2, Parent = Main })
+    AddInlineOutline(ContentArea, Library.Theme.Inline, Library.Theme.Outline)
+    table.insert(Library.Elements.Windows, { Main = Main, TitleBar = TitleBar, Content = ContentArea, AccentLine = AccentLine })
+    local dragging, dragStart, startPos
+    TitleBar.InputBegan:Connect(function(input) if input.UserInputType == Enum.UserInputType.MouseButton1 then dragging = true; dragStart = input.Position; startPos = Main.Position end end)
+    UIS.InputChanged:Connect(function(input) if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then local delta = input.Position - dragStart; Main.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y) end end)
+    UIS.InputEnded:Connect(function(input) if input.UserInputType == Enum.UserInputType.MouseButton1 then dragging = false end end)
+    local function ResizeTabs() for _, t in pairs(Window.Tabs) do t.Button.Size = UDim2.new(1 / #Window.Tabs, 0, 1, 0) end end
+
+    function Window:Tab(name)
+        local Tab = {}
+        local TabButton = Create("TextButton", { Name = name, Text = name, Size = UDim2.new(0, 0, 1, 0), AutomaticSize = Enum.AutomaticSize.X, BackgroundTransparency = 1, FontFace = true, TextSize = Library.Config.FontSize, TextColor3 = Library.Theme.InactiveText, AutoButtonColor = false, ZIndex = 3, Parent = TabBar, TextStrokeTransparency = 0, TextStrokeColor3 = Color3.fromRGB(0,0,0) })
+        local TabAccent = Create("Frame", { Name = "Accent", Size = UDim2.new(0, 0, 0, 1), Position = UDim2.new(0.5, 0, 0.5, 8), BackgroundColor3 = Library.Theme.Accent, BorderSizePixel = 0, ZIndex = 4, Parent = TabButton })
+        
+        local TabPage = Create("Frame", { Name = name .. "_Page", Size = UDim2.new(1, 0, 1, 0), BackgroundTransparency = 1, Visible = false, ZIndex = 2, Parent = ContentArea })
+        local LeftColumn = Create("Frame", { Name = "Left", Size = UDim2.new(0.5, -8, 1, -12), Position = UDim2.new(0, 6, 0, 6), BackgroundTransparency = 1, AutomaticSize = Enum.AutomaticSize.Y, ZIndex = 3, Parent = TabPage, ClipsDescendants = false })
+        Create("UIListLayout", {SortOrder = Enum.SortOrder.LayoutOrder, Padding = UDim.new(0, 4), Parent = LeftColumn})
+        local RightColumn = Create("Frame", { Name = "Right", Size = UDim2.new(0.5, -8, 1, -12), Position = UDim2.new(0.5, 4, 0, 6), BackgroundTransparency = 1, AutomaticSize = Enum.AutomaticSize.Y, ZIndex = 3, Parent = TabPage, ClipsDescendants = false })
+        Create("UIListLayout", {SortOrder = Enum.SortOrder.LayoutOrder, Padding = UDim.new(0, 4), Parent = RightColumn})
+        
+        local function Activate() 
+            for _, t in pairs(Window.Tabs) do 
+                t.Page.Visible = false; 
+                Tween(t.Button, {TextColor3 = Library.Theme.InactiveText}); 
+                Tween(t.Accent, {Size = UDim2.new(0, 0, 0, 1), Position = UDim2.new(0.5, 0, 0.5, 8)})
+            end
+            TabPage.Visible = true; 
+            Tween(TabButton, {TextColor3 = Library.Theme.Text}); 
+            Tween(TabAccent, {Size = UDim2.new(1, 0, 0, 1), Position = UDim2.new(0, 0, 0.5, 8)})
+        end
+        TabButton.MouseButton1Click:Connect(Activate)
+        table.insert(Window.Tabs, {Button = TabButton, Page = TabPage, Accent = TabAccent})
+        table.insert(Library.Elements.Tabs, { Accent = TabAccent, Button = TabButton, IsActive = function() return TabPage.Visible end })
+        if #Window.Tabs == 1 then Activate() end
+
+        function Tab:Section(sectionName, side)
+            local Section = {}
+            local parent = (side and side:lower() == "right") and RightColumn or LeftColumn
+            local SectionFrame = Create("Frame", { Name = sectionName, Size = UDim2.new(1, -4, 0, 0), AutomaticSize = Enum.AutomaticSize.Y, BackgroundColor3 = Library.Theme.DarkBackground, BorderSizePixel = 0, ZIndex = 4, Parent = parent, ClipsDescendants = false })
+            AddInlineOutline(SectionFrame)
+            local Header = Create("TextLabel", { Name = "Header", Text = sectionName, Size = UDim2.new(1, 0, 0, 20), BackgroundTransparency = 1, FontFace = true, TextSize = Library.Config.FontSize, TextColor3 = Library.Theme.Text, TextXAlignment = Enum.TextXAlignment.Center, ZIndex = 5, Parent = SectionFrame, TextStrokeTransparency = 0, TextStrokeColor3 = Color3.fromRGB(0,0,0) })
+            table.insert(Library.Elements.Sections, { Frame = SectionFrame, Header = Header })
+            local ElementList = Create("Frame", { Name = "Elements", Size = UDim2.new(1, -12, 0, 0), Position = UDim2.new(0, 6, 0, 23), AutomaticSize = Enum.AutomaticSize.Y, BackgroundTransparency = 1, ZIndex = 5, Parent = SectionFrame, ClipsDescendants = false })
+            Create("UIListLayout", {SortOrder = Enum.SortOrder.LayoutOrder, Padding = UDim.new(0, 4), Parent = ElementList})
+            Create("UIPadding", {PaddingBottom = UDim.new(0, 9), Parent = ElementList})
+            function Section:Button(opts)
+                local Holder = Create("Frame", { Size = UDim2.new(1, 0, 0, 18), BackgroundTransparency = 1, ZIndex = 6, Parent = ElementList })
+                local Box = Create("Frame", { Size = UDim2.new(1, 0, 1, 0), BackgroundColor3 = Library.Theme.Background, ZIndex = 7, Parent = Holder })
+                ApplyCelestiteStyle(Box)
+                local Label = Create("TextLabel", { Text = opts.Name or "Button", Size = UDim2.new(1, 0, 1, 0), BackgroundTransparency = 1, FontFace = true, TextSize = Library.Config.FontSize, TextColor3 = Library.Theme.Text, TextXAlignment = Enum.TextXAlignment.Center, ZIndex = 8, Parent = Box, TextStrokeTransparency = 0, TextStrokeColor3 = Color3.fromRGB(0,0,0) })
+                table.insert(Library.Elements.Labels, Label)
+                table.insert(Library.Elements.Buttons, Box)
+                local btn = Create("TextButton", { Size = UDim2.new(1, 0, 1, 0), BackgroundTransparency = 1, Text = "", ZIndex = 9, Parent = Box })
+                btn.MouseButton1Click:Connect(function()
+                    Tween(Box, {BackgroundColor3 = Color3.fromRGB(45, 45, 45)}, 0.1)
+                    task.wait(0.1)
+                    Tween(Box, {BackgroundColor3 = Library.Theme.SectionBackground}, 0.1)
+                    if opts.Callback then opts.Callback() end
+                end)
+                return { SetText = function(t) Label.Text = t end }
+            end
+
+            function Section:TextBox(opts)
+                local Holder = Create("Frame", { Size = UDim2.new(1, 0, 0, 32), BackgroundTransparency = 1, ZIndex = 6, Parent = ElementList })
+                local Label = Create("TextLabel", { Text = opts.Name or "Text Box", Size = UDim2.new(1, 0, 0, 14), BackgroundTransparency = 1, FontFace = true, TextSize = Library.Config.FontSize, TextColor3 = Library.Theme.Text, TextXAlignment = Enum.TextXAlignment.Left, ZIndex = 7, Parent = Holder, TextStrokeTransparency = 0, TextStrokeColor3 = Color3.fromRGB(0,0,0) })
+                table.insert(Library.Elements.Labels, Label)
+                local Box = Create("Frame", { Size = UDim2.new(1, 0, 0, 16), Position = UDim2.new(0, 0, 0, 16), BackgroundColor3 = Library.Theme.Background, ZIndex = 7, Parent = Holder })
+                ApplyCelestiteStyle(Box)
+                local Input = Create("TextBox", { Text = opts.Default or "", PlaceholderText = opts.Placeholder or "...", Size = UDim2.new(1, -10, 1, 0), Position = UDim2.new(0, 5, 0, 0), BackgroundTransparency = 1, FontFace = true, TextSize = Library.Config.FontSize, TextColor3 = Library.Theme.Text, TextXAlignment = Enum.TextXAlignment.Left, ZIndex = 8, Parent = Box, TextStrokeTransparency = 0, TextStrokeColor3 = Color3.fromRGB(0,0,0) })
+                table.insert(Library.Elements.TextBoxes, { Box = Box, Input = Input })
+                Input.FocusLost:Connect(function() if opts.Callback then opts.Callback(Input.Text) end end)
+                local Obj = { GetText = function() return Input.Text end, SetText = function(t) Input.Text = t end, Set = function(t) Input.Text = t end }
+                Library.Flags[opts.Flag or opts.Name] = Obj
+                return Obj
+            end
+
+            function Section:ColorPicker(opts)
+                local h, s, v = 0, 1, 1
+                local color = opts.Default or Color3.fromHSV(h, s, v)
+                h, s, v = Color3.toHSV(color)
+                local Holder = Create("Frame", { Size = UDim2.new(1, 0, 0, 16), BackgroundTransparency = 1, ZIndex = 6, Parent = ElementList })
+                local Label = Create("TextLabel", { Text = opts.Name or "Color Picker", Size = UDim2.new(1, 0, 1, 0), BackgroundTransparency = 1, FontFace = true, TextSize = Library.Config.FontSize, TextColor3 = Library.Theme.Text, TextXAlignment = Enum.TextXAlignment.Left, ZIndex = 7, Parent = Holder, TextStrokeTransparency = 0, TextStrokeColor3 = Color3.fromRGB(0,0,0) })
+                table.insert(Library.Elements.Labels, Label)
+                local CPHolder = Create("Frame", { Size = UDim2.new(0, 18, 0, 10), Position = UDim2.new(1, -18, 0, 3), BackgroundColor3 = color, ZIndex = 7, Parent = Holder })
+                ApplyCelestiteStyle(CPHolder)
+                local CPBtn = Create("TextButton", { Size = UDim2.new(1, 0, 1, 0), BackgroundTransparency = 1, Text = "", ZIndex = 8, Parent = CPHolder })
+                local Picker = Create("Frame", { Size = UDim2.new(0, 160, 0, 140), BackgroundColor3 = Library.Theme.DarkBackground, Visible = false, ZIndex = 300, Parent = ScreenGui })
+                AddInlineOutline(Picker)
+                table.insert(Library.Elements.ColorPickers, { Frame = Holder, Picker = Picker })
+                AddInlineOutline(Picker)
+                local HueSlider = Create("Frame", { Size = UDim2.new(0, 12, 0, 120), Position = UDim2.new(1, -22, 0, 10), ZIndex = 301, Parent = Picker, Active = true })
+                ApplyCelestiteStyle(HueSlider)
+                local HueBtn = Create("TextButton", { Size = UDim2.new(1, 0, 1, 0), BackgroundTransparency = 1, Text = "", ZIndex = 305, Parent = HueSlider })
+                Create("UIGradient", { Rotation = 90, Color = ColorSequence.new({ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(0.167, Color3.fromRGB(255, 255, 0)), ColorSequenceKeypoint.new(0.333, Color3.fromRGB(0, 255, 0)), ColorSequenceKeypoint.new(0.5, Color3.fromRGB(0, 255, 255)), ColorSequenceKeypoint.new(0.667, Color3.fromRGB(0, 0, 255)), ColorSequenceKeypoint.new(0.833, Color3.fromRGB(255, 0, 255)), ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 0, 0))}), Parent = HueSlider })
+                local HueMarker = Create("Frame", { Size = UDim2.new(1, 4, 0, 2), Position = UDim2.new(0, -2, h, 0), BackgroundColor3 = Color3.new(1,1,1), ZIndex = 302, Parent = HueSlider })
+                local SVBox = Create("Frame", { Size = UDim2.new(0, 120, 0, 120), Position = UDim2.new(0, 10, 0, 10), BackgroundColor3 = Color3.fromHSV(h, 1, 1), ZIndex = 301, Parent = Picker, Active = true })
+                ApplyCelestiteStyle(SVBox)
+                local SVBtn = Create("TextButton", { Size = UDim2.new(1, 0, 1, 0), BackgroundTransparency = 1, Text = "", ZIndex = 305, Parent = SVBox })
+                local SatGradient = Create("Frame", { Size = UDim2.new(1, 0, 1, 0), BackgroundColor3 = Color3.new(1,1,1), ZIndex = 302, Parent = SVBox, BackgroundTransparency = 0 })
+                Create("UIGradient", { Color = ColorSequence.new(Color3.new(1,1,1)), Transparency = NumberSequence.new(0, 1), Parent = SatGradient })
+                local ValGradient = Create("Frame", { Size = UDim2.new(1, 0, 1, 0), BackgroundColor3 = Color3.new(0,0,0), ZIndex = 303, Parent = SVBox, BackgroundTransparency = 0 })
+                Create("UIGradient", { Rotation = 90, Color = ColorSequence.new(Color3.new(0,0,0)), Transparency = NumberSequence.new(1, 0), Parent = ValGradient })
+                local Marker = Create("Frame", { Size = UDim2.new(0, 4, 0, 4), Position = UDim2.new(s, -2, 1-v, -2), BackgroundColor3 = Color3.new(1,1,1), ZIndex = 304, Parent = SVBox })
+                Create("UIStroke", { Color = Color3.new(0,0,0), Thickness = 1, Parent = Marker })
+                local sS, sH = false, false; local pickerConn, renderConn
+                local function UpdatePos() local pos = CPHolder.AbsolutePosition; Picker.Position = UDim2.new(0, pos.X + 25, 0, pos.Y) end
+                local function ClosePicker() Picker.Visible = false; if pickerConn then pickerConn:Disconnect(); pickerConn = nil end; if renderConn then renderConn:Disconnect(); renderConn = nil end end
+                CPBtn.MouseButton1Click:Connect(function() 
+                    if Picker.Visible then ClosePicker() else UpdatePos(); Picker.Visible = true; renderConn = game:GetService("RunService").RenderStepped:Connect(UpdatePos); pickerConn = UIS.InputBegan:Connect(function(input) if input.UserInputType == Enum.UserInputType.MouseButton1 then if not IsWithin(Picker, input) and not IsWithin(CPHolder, input) then ClosePicker() end end end) end 
+                end)
+                local function Set(color)
+                    h, s, v = color:ToHSV()
+                    CPHolder.BackgroundColor3 = color
+                    SVBox.BackgroundColor3 = Color3.fromHSV(h, 1, 1)
+                    Marker.Position = UDim2.new(s, -2, 1-v, -2)
+                    HueMarker.Position = UDim2.new(0, -2, h, 0)
+                    if opts.Callback then opts.Callback(color) end
+                end
+                local CPObj = { Set = Set, Get = function() return Color3.fromHSV(h, s, v) end }
+                Library.Flags[opts.Flag or opts.Name] = CPObj
+                table.insert(Library.Elements.ColorPickers, { Frame = Holder, Picker = Picker })
+                SVBtn.InputBegan:Connect(function(i) if i.UserInputType == Enum.UserInputType.MouseButton1 then sS = true end end)
+                HueBtn.InputBegan:Connect(function(i) if i.UserInputType == Enum.UserInputType.MouseButton1 then sH = true end end)
+                UIS.InputEnded:Connect(function(i) if i.UserInputType == Enum.UserInputType.MouseButton1 then sS = false; sH = false end end)
+                UIS.InputChanged:Connect(function(i) 
+                    if i.UserInputType == Enum.UserInputType.MouseMovement then 
+                        if sS then 
+                            local relX = math.clamp((i.Position.X - SVBox.AbsolutePosition.X) / SVBox.AbsoluteSize.X, 0, 1)
+                            local relY = math.clamp((i.Position.Y - SVBox.AbsolutePosition.Y) / SVBox.AbsoluteSize.Y, 0, 1)
+                            s, v = relX, 1 - relY
+                            Marker.Position = UDim2.new(s, -2, 1-v, -2)
+                            if opts.Callback then opts.Callback(Color3.fromHSV(h, s, v)) end
+                            CPHolder.BackgroundColor3 = Color3.fromHSV(h, s, v)
+                        elseif sH then 
+                            h = math.clamp((i.Position.Y - HueSlider.AbsolutePosition.Y) / HueSlider.AbsoluteSize.Y, 0, 1)
+                            HueMarker.Position = UDim2.new(0, -2, h, 0)
+                            SVBox.BackgroundColor3 = Color3.fromHSV(h, 1, 1)
+                            if opts.Callback then opts.Callback(Color3.fromHSV(h, s, v)) end
+                            CPHolder.BackgroundColor3 = Color3.fromHSV(h, s, v)
+                        end 
+                    end 
+                end)
+                return CPObj
+            end
+
+            function Section:Toggle(opts)
+                local state = opts.Default or false; local ToggleObj = {}
+                local Holder = Create("Frame", { Size = UDim2.new(1, 0, 0, 16), BackgroundTransparency = 1, ZIndex = 6, Parent = ElementList })
+                local Box = Create("Frame", { Size = UDim2.new(0, 10, 0, 10), Position = UDim2.new(0, 0, 0.5, -5), BackgroundColor3 = state and Library.Theme.Accent or Color3.fromRGB(50, 50, 50), BorderSizePixel = 0, ZIndex = 7, Parent = Holder })
+                ApplyCelestiteStyle(Box)
+                local Label = Create("TextLabel", { Text = opts.Name or "Toggle", Size = UDim2.new(1, -15, 1, 0), Position = UDim2.new(0, 15, 0, 0), BackgroundTransparency = 1, FontFace = true, TextSize = Library.Config.FontSize, TextColor3 = state and Library.Theme.Text or Library.Theme.InactiveText, TextXAlignment = Enum.TextXAlignment.Left, ZIndex = 7, Parent = Holder, TextStrokeTransparency = 0, TextStrokeColor3 = Color3.fromRGB(0,0,0) })
+                table.insert(Library.Elements.Labels, Label)
+                local RightSide = Create("Frame", { Size = UDim2.new(1, -15, 1, 0), Position = UDim2.new(0, 15, 0, 0), BackgroundTransparency = 1, ZIndex = 8, Parent = Holder })
+                Create("UIListLayout", { FillDirection = Enum.FillDirection.Horizontal, HorizontalAlignment = Enum.HorizontalAlignment.Right, VerticalAlignment = Enum.VerticalAlignment.Center, Padding = UDim.new(0, 8), SortOrder = Enum.SortOrder.LayoutOrder, Parent = RightSide })
+                local function Set(v) state = v; Tween(Box, {BackgroundColor3 = state and Library.Theme.Accent or Color3.fromRGB(50, 50, 50)}); Tween(Label, {TextColor3 = state and Library.Theme.Text or Library.Theme.InactiveText}); if opts.Callback then opts.Callback(state) end end
+                local function ToggleState() state = not state; Set(state) end
+                local btn = Create("TextButton", { Size = UDim2.new(1, -70, 1, 0), BackgroundTransparency = 1, Text = "", TextTransparency = 1, ZIndex = 9, Parent = Holder })
+                btn.MouseButton1Click:Connect(ToggleState)
+                local ToggleObj = { GetState = function() return state end, Get = function() return state end, Set = Set }
+                table.insert(Library.Elements.Toggles, { Box = Box, Label = Label, GetState = function() return state end })
+                Library.Flags[opts.Flag or opts.Name] = ToggleObj
+                
+                function ToggleObj:Keybind(kopts)
+                    local bind = { Key = kopts.Default or Enum.KeyCode.X, Binding = false, Started = 0, Label = nil, OnTrigger = ToggleState, Callback = kopts.Callback }
+                    local Label = Create("TextLabel", { Text = GetKeyName(bind.Key), Size = UDim2.new(0, 0, 1, 0), AutomaticSize = Enum.AutomaticSize.X, BackgroundTransparency = 1, FontFace = true, TextSize = Library.Config.FontSize, TextColor3 = Library.Theme.Text, TextXAlignment = Enum.TextXAlignment.Right, ZIndex = 9, Parent = RightSide, TextStrokeTransparency = 0, TextStrokeColor3 = Color3.fromRGB(0,0,0) })
+                    bind.Label = Label; table.insert(Library.Elements.Labels, Label)
+                    local BindBtn = Create("TextButton", { Size = UDim2.new(1, 0, 1, 0), BackgroundTransparency = 1, Text = "", ZIndex = 11, Parent = bind.Label })
+                    BindBtn.MouseButton1Click:Connect(function() if bind.Binding then return end; bind.Binding = true; bind.Started = tick(); bind.Label.Text = "?"; bind.Label.TextColor3 = Library.Theme.Accent end)
+                    UIS.InputBegan:Connect(function(input)
+                        if bind.Binding and (tick() - bind.Started) > 0.01 then
+                            if input.UserInputType == Enum.UserInputType.Keyboard or input.UserInputType.Name:find("MouseButton") then
+                                bind.Binding = false
+                                bind.Key = (input.UserInputType == Enum.UserInputType.Keyboard) and input.KeyCode or input.UserInputType
+                                bind.Label.Text = GetKeyName(bind.Key)
+                                bind.Label.TextColor3 = Library.Theme.Text
+                                if bind.Callback then bind.Callback(bind.Key) end
+                            end
+                        end
+                    end)
+                    table.insert(Library.Registry, bind); return ToggleObj
+                end
+
+                function ToggleObj:ColorPicker(copts)
+                    local h, s, v = 0, 1, 1; local color = copts.Default or Color3.fromHSV(h, s, v); h, s, v = Color3.toHSV(color)
+                    local CPHolder = Create("Frame", { Size = UDim2.new(0, 18, 0, 10), BackgroundColor3 = color, ZIndex = 10, Parent = RightSide }); ApplyCelestiteStyle(CPHolder)
+                    local CPBtn = Create("TextButton", { Size = UDim2.new(1, 0, 1, 0), BackgroundTransparency = 1, Text = "", ZIndex = 11, Parent = CPHolder })
+                    local Picker = Create("Frame", { Size = UDim2.new(0, 160, 0, 140), BackgroundColor3 = Library.Theme.DarkBackground, Visible = false, ZIndex = 3000, Parent = ScreenGui }); AddInlineOutline(Picker)
+                    local HueSlider = Create("Frame", { Size = UDim2.new(0, 12, 0, 120), Position = UDim2.new(1, -22, 0, 10), ZIndex = 3001, Parent = Picker }); ApplyCelestiteStyle(HueSlider)
+                    Create("UIGradient", { Rotation = 90, Color = ColorSequence.new({ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(0.167, Color3.fromRGB(255, 255, 0)), ColorSequenceKeypoint.new(0.333, Color3.fromRGB(0, 255, 0)), ColorSequenceKeypoint.new(0.5, Color3.fromRGB(0, 255, 255)), ColorSequenceKeypoint.new(0.667, Color3.fromRGB(0, 0, 255)), ColorSequenceKeypoint.new(0.833, Color3.fromRGB(255, 0, 255)), ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 0, 0))}), Parent = HueSlider })
+                    local HueMarker = Create("Frame", { Size = UDim2.new(1, 4, 0, 2), Position = UDim2.new(0, -2, h, 0), BackgroundColor3 = Color3.new(1,1,1), ZIndex = 3002, Parent = HueSlider })
+                    local SVBox = Create("Frame", { Size = UDim2.new(0, 120, 0, 120), Position = UDim2.new(0, 10, 0, 10), BackgroundColor3 = Color3.fromHSV(h, 1, 1), ZIndex = 3001, Parent = Picker }); ApplyCelestiteStyle(SVBox)
+                    local SatGradient = Create("Frame", { Size = UDim2.new(1, 0, 1, 0), BackgroundColor3 = Color3.new(1,1,1), ZIndex = 3002, Parent = SVBox }); Create("UIGradient", { Color = ColorSequence.new(Color3.new(1,1,1)), Transparency = NumberSequence.new(0, 1), Parent = SatGradient })
+                    local ValGradient = Create("Frame", { Size = UDim2.new(1, 0, 1, 0), BackgroundColor3 = Color3.new(0,0,0), ZIndex = 3003, Parent = SVBox }); Create("UIGradient", { Rotation = 90, Color = ColorSequence.new(Color3.new(0,0,0)), Transparency = NumberSequence.new(1, 0), Parent = ValGradient })
+                    local Marker = Create("Frame", { Size = UDim2.new(0, 4, 0, 4), Position = UDim2.new(s, -2, 1-v, -2), BackgroundColor3 = Color3.new(1,1,1), ZIndex = 3004, Parent = SVBox }); Create("UIStroke", { Color = Color3.new(0,0,0), Thickness = 1, Parent = Marker })
+                    local pickerConn, renderConn
+                    local function UpdatePos() local pos = CPHolder.AbsolutePosition; Picker.Position = UDim2.new(0, pos.X + 25, 0, pos.Y) end
+                    local function ClosePicker() Picker.Visible = false; if pickerConn then pickerConn:Disconnect(); pickerConn = nil end; if renderConn then renderConn:Disconnect(); renderConn = nil end end
+                    CPBtn.MouseButton1Click:Connect(function() if Picker.Visible then ClosePicker() else UpdatePos(); Picker.Visible = true; renderConn = game:GetService("RunService").RenderStepped:Connect(UpdatePos); pickerConn = UIS.InputBegan:Connect(function(input) if input.UserInputType == Enum.UserInputType.MouseButton1 then if not IsWithin(Picker, input) and not IsWithin(CPHolder, input) then ClosePicker() end end end) end end)
+                    local sS, sH = false, false
+                    local function Update() color = Color3.fromHSV(h, s, v); CPHolder.BackgroundColor3 = color; SVBox.BackgroundColor3 = Color3.fromHSV(h, 1, 1); copts.Callback(color) end
+                    SVBox.InputBegan:Connect(function(i) if i.UserInputType == Enum.UserInputType.MouseButton1 then sS = true end end); HueSlider.InputBegan:Connect(function(i) if i.UserInputType == Enum.UserInputType.MouseButton1 then sH = true end end); UIS.InputEnded:Connect(function(i) if i.UserInputType == Enum.UserInputType.MouseButton1 then sS = false; sH = false end end)
+                    UIS.InputChanged:Connect(function(i) 
+                        if i.UserInputType == Enum.UserInputType.MouseMovement then 
+                            if sS then 
+                                local relX = math.clamp((i.Position.X - SVBox.AbsolutePosition.X) / SVBox.AbsoluteSize.X, 0, 1)
+                                local relY = math.clamp((i.Position.Y - SVBox.AbsolutePosition.Y) / SVBox.AbsoluteSize.Y, 0, 1)
+                                s, v = relX, 1 - relY
+                                Marker.Position = UDim2.new(s, -2, 1-v, -2)
+                                Update() 
+                            elseif sH then 
+                                h = math.clamp((i.Position.Y - HueSlider.AbsolutePosition.Y) / HueSlider.AbsoluteSize.Y, 0, 1)
+                                HueMarker.Position = UDim2.new(0, -2, h, 0)
+                                SVBox.BackgroundColor3 = Color3.fromHSV(h, 1, 1)
+                                Update() 
+                            end 
+                        end 
+                    end)
+                    return ToggleObj
+                end
+                
+                return ToggleObj
+            end
+
+            function Section:Slider(opts)
+                local min, max = opts.Min, opts.Max
+                local val = opts.Default or min; local sliding = false
+                local Holder = Create("Frame", { Size = UDim2.new(1, 0, 0, 28), BackgroundTransparency = 1, ZIndex = 6, Parent = ElementList })
+                local Value = Create("TextLabel", { Text = tostring(val), Size = UDim2.new(1, 0, 0, 14), Position = UDim2.new(0, 0, 0, 0), BackgroundTransparency = 1, FontFace = true, TextSize = Library.Config.FontSize, TextColor3 = Library.Theme.Text, TextXAlignment = Enum.TextXAlignment.Right, ZIndex = 7, Parent = Holder, TextStrokeTransparency = 0, TextStrokeColor3 = Color3.fromRGB(0,0,0) })
+                table.insert(Library.Elements.Labels, Value)
+                local Label = Create("TextLabel", { Text = opts.Name or "Slider", Size = UDim2.new(1, 0, 0, 14), Position = UDim2.new(0, 0, 0, 0), BackgroundTransparency = 1, FontFace = true, TextSize = Library.Config.FontSize, TextColor3 = Library.Theme.Text, TextXAlignment = Enum.TextXAlignment.Left, ZIndex = 7, Parent = Holder, TextStrokeTransparency = 0, TextStrokeColor3 = Color3.fromRGB(0,0,0) })
+                table.insert(Library.Elements.Labels, Label)
+                local SliderBack = Create("Frame", { Name = "SliderBack", Size = UDim2.new(1, 0, 0, 8), Position = UDim2.new(0, 0, 0, 16), BackgroundColor3 = Library.Theme.SectionBackground, BorderSizePixel = 0, ZIndex = 7, Parent = Holder })
+                AddInlineOutline(SliderBack)
+                local SliderFill = Create("Frame", { Name = "Fill", Size = UDim2.new((val - min) / (max - min), 0, 1, 0), BackgroundColor3 = Library.Theme.Accent, BorderSizePixel = 0, ZIndex = 8, Parent = SliderBack })
+                
+                table.insert(Library.Elements.Sliders, { Fill = SliderFill, Label = Label, Value = Value, Back = SliderBack })
+                local btn = Create("TextButton", { Size = UDim2.new(1, 0, 1, 0), BackgroundTransparency = 1, Text = "", TextTransparency = 1, ZIndex = 10, Parent = SliderBack })
+                local function update(input) local pct = math.clamp((input.Position.X - SliderBack.AbsolutePosition.X) / SliderBack.AbsoluteSize.X, 0, 1); val = math.floor(min + (max - min) * pct); SliderFill.Size = UDim2.new(pct, 0, 1, 0); Value.Text = tostring(val); opts.Callback(val) end
+                local function Set(v) val = v; SliderFill.Size = UDim2.new((val - min) / (max - min), 0, 1, 0); Value.Text = tostring(val); opts.Callback(val) end
+                btn.MouseButton1Down:Connect(function() sliding = true end); UIS.InputChanged:Connect(function(input) if sliding and input.UserInputType == Enum.UserInputType.MouseMovement then update(input) end end); UIS.InputEnded:Connect(function(input) if input.UserInputType == Enum.UserInputType.MouseButton1 then sliding = false end end)
+                local Obj = { Get = function() return val end, Set = Set }
+                Library.Flags[opts.Flag or opts.Name] = Obj
+            end
+
+            function Section:Dropdown(opts)
+                local dropped = false; local selected = opts.Default or (opts.Options and opts.Options[1]) or "None"
+                local Holder = Create("Frame", { Name = "DropdownHolder", Size = UDim2.new(1, 0, 0, 36), BackgroundTransparency = 1, ZIndex = 6, Parent = ElementList })
+                local Label = Create("TextLabel", { Text = opts.Name, Size = UDim2.new(1, 0, 0, 12), BackgroundTransparency = 1, FontFace = true, TextSize = Library.Config.FontSize, TextColor3 = Library.Theme.Text, TextXAlignment = Enum.TextXAlignment.Left, ZIndex = 7, Parent = Holder, TextStrokeTransparency = 0, TextStrokeColor3 = Color3.fromRGB(0,0,0) })
+                table.insert(Library.Elements.Labels, Label)
+                local Box = Create("Frame", { Name = "DropdownBox", Size = UDim2.new(1, 0, 0, 18), Position = UDim2.new(0, 0, 0, 15), BackgroundColor3 = Library.Theme.SectionBackground, BorderSizePixel = 0, ZIndex = 7, Parent = Holder })
+                ApplyCelestiteStyle(Box)
+                local ValueLabel = Create("TextLabel", { Text = selected, Size = UDim2.new(1, -20, 1, 0), Position = UDim2.new(0, 6, 0, 0), BackgroundTransparency = 1, FontFace = true, TextSize = Library.Config.FontSize, TextColor3 = Library.Theme.Text, TextXAlignment = Enum.TextXAlignment.Left, TextYAlignment = Enum.TextYAlignment.Center, ZIndex = 8, Parent = Box, TextStrokeTransparency = 0, TextStrokeColor3 = Color3.fromRGB(0,0,0) })
+                table.insert(Library.Elements.Labels, ValueLabel)
+                local Arrow = Create("TextLabel", { Text = "v", Size = UDim2.new(0, 20, 1, 0), Position = UDim2.new(1, -20, 0, -1), BackgroundTransparency = 1, FontFace = true, TextSize = Library.Config.FontSize, TextColor3 = Library.Theme.Text, TextXAlignment = Enum.TextXAlignment.Center, TextYAlignment = Enum.TextYAlignment.Center, ZIndex = 8, Parent = Box, TextStrokeTransparency = 0, TextStrokeColor3 = Color3.fromRGB(0,0,0) })
+                table.insert(Library.Elements.Labels, Arrow)
+                local Button = Create("TextButton", { Size = UDim2.new(1, 0, 1, 0), BackgroundTransparency = 1, Text = "", ZIndex = 9, Parent = Box })
+                
+                local DropContainer = Create("Frame", { Name = "DropContainer", BackgroundColor3 = Library.Theme.DarkBackground, BorderSizePixel = 0, Visible = false, ZIndex = 5000, Parent = ScreenGui, ClipsDescendants = true })
+                AddOutline(DropContainer)
+                AddInlineOutline(DropContainer)
+                
+                local OptionHolder = Create("ScrollingFrame", { Name = "Options", Size = UDim2.new(1, 0, 1, 0), BackgroundTransparency = 1, ZIndex = 5001, Parent = DropContainer, ScrollBarThickness = 2, CanvasSize = UDim2.new(0, 0, 0, 0), AutomaticCanvasSize = Enum.AutomaticSize.Y })
+                Create("UIListLayout", { SortOrder = Enum.SortOrder.LayoutOrder, Parent = OptionHolder })
+                
+                local function UpdateList(new)
+                    if new then opts.Options = new end
+                    local options = opts.Options or {}
+                    
+                    OptionHolder:ClearAllChildren()
+                    local layout = Create("UIListLayout", { SortOrder = Enum.SortOrder.LayoutOrder, Parent = OptionHolder })
+                    
+                    if #options == 0 then
+                        Create("TextLabel", { Text = "No Configs Found", Size = UDim2.new(1, 0, 0, 18), BackgroundTransparency = 1, FontFace = true, TextSize = Library.Config.FontSize, TextColor3 = Library.Theme.InactiveText, ZIndex = 5005, Parent = OptionHolder, TextXAlignment = Enum.TextXAlignment.Center })
+                    else
+                        for _, option in ipairs(options) do
+                            local optBtn = Create("TextButton", { Text = tostring(option), Size = UDim2.new(1, 0, 0, 18), BackgroundTransparency = 1, FontFace = true, TextSize = Library.Config.FontSize, TextColor3 = (tostring(option) == tostring(selected)) and Library.Theme.Accent or Library.Theme.Text, BorderSizePixel = 0, ZIndex = 5005, Parent = OptionHolder, TextXAlignment = Enum.TextXAlignment.Left, TextStrokeTransparency = 0, TextStrokeColor3 = Color3.fromRGB(0,0,0) })
+                            Create("UIPadding", { PaddingLeft = UDim.new(0, 6), Parent = optBtn })
+                            optBtn.MouseButton1Click:Connect(function() 
+                                selected = option; ValueLabel.Text = tostring(option); dropped = false; DropContainer.Visible = false; Arrow.Text = "v"; Arrow.Position = UDim2.new(1, -20, 0, -1)
+                                if opts.Callback then opts.Callback(option) end
+                                UpdateList()
+                            end)
+                        end
+                    end
+                    
+                    local h = math.clamp(#options * 18, 18, 200)
+                    if #options == 0 then h = 18 end
+                    DropContainer.Size = UDim2.new(0, Box.AbsoluteSize.X, 0, h)
+                end
+                
+                Button.MouseButton1Click:Connect(function()
+                    dropped = not dropped
+                    if dropped then
+                        if opts.OnOpen then opts.OnOpen() end
+                        task.defer(function()
+                            UpdateList()
+                            DropContainer.Position = UDim2.new(0, Box.AbsolutePosition.X, 0, Box.AbsolutePosition.Y + 20)
+                            DropContainer.Size = UDim2.new(0, Box.AbsoluteSize.X, 0, DropContainer.Size.Y.Offset)
+                            DropContainer.Visible = true
+                            Arrow.Text = "^"
+                            Arrow.Position = UDim2.new(1, -20, 0, 2)
+                        end)
+                    else
+                        DropContainer.Visible = false
+                        Arrow.Text = "v"
+                        Arrow.Position = UDim2.new(1, -20, 0, -1)
+                    end
+                end)
+                
+                UIS.InputBegan:Connect(function(input)
+                    if input.UserInputType == Enum.UserInputType.MouseButton1 and dropped then
+                        if not IsWithin(DropContainer, input) and not IsWithin(Box, input) then
+                            dropped = false; DropContainer.Visible = false; Arrow.Text = "v"; Arrow.Position = UDim2.new(1, -20, 0, -1)
+                        end
+                    end
+                end)
+                
+                local Obj = { 
+                    Get = function() return selected end, 
+                    Set = function(v) selected = v; ValueLabel.Text = tostring(v); UpdateList() end,
+                    Refresh = function(new) UpdateList(new) end
+                }
+                Library.Flags[opts.Flag or opts.Name] = Obj
+                return Obj
+            end
+            return Section
+        end
+        function Tab:Themes(side)
+            local ThemeSection = Tab:Section("Theme Settings", side or "Right")
+            ThemeSection:ColorPicker({ Name = "Accent Color", Default = Library.Theme.Accent, Callback = function(c) Library.Theme.Accent = c; Library:UpdateTheme() end })
+            ThemeSection:ColorPicker({ Name = "Background Color", Default = Library.Theme.Background, Callback = function(c) Library.Theme.Background = c; Library:UpdateTheme() end })
+            ThemeSection:ColorPicker({ Name = "Dark Background", Default = Library.Theme.DarkBackground, Callback = function(c) Library.Theme.DarkBackground = c; Library:UpdateTheme() end })
+            ThemeSection:ColorPicker({ Name = "Text Color", Default = Library.Theme.Text, Callback = function(c) Library.Theme.Text = c; Library:UpdateTheme() end })
+            ThemeSection:ColorPicker({ Name = "Inactive Text", Default = Library.Theme.InactiveText, Callback = function(c) Library.Theme.InactiveText = c; Library:UpdateTheme() end })
+            ThemeSection:ColorPicker({ Name = "Outline Color", Default = Library.Theme.Outline, Callback = function(c) Library.Theme.Outline = c; Library:UpdateTheme() end })
+            ThemeSection:ColorPicker({ Name = "Inline Color", Default = Library.Theme.Inline, Callback = function(c) Library.Theme.Inline = c; Library:UpdateTheme() end })
+            ThemeSection:ColorPicker({ Name = "Section Background", Default = Library.Theme.SectionBackground, Callback = function(c) Library.Theme.SectionBackground = c; Library:UpdateTheme() end })
+            return ThemeSection
+        end
+
+        function Tab:Configs(side)
+            local ConfigSection = Tab:Section("Configuration", side or "Left")
+            local ConfigPath = "celestite/"
+            if not isfolder(ConfigPath) then makefolder(ConfigPath) end
+
+            local ConfigName = ""
+            local NameBox = ConfigSection:TextBox({ Name = "Config Name", Placeholder = "...", Callback = function(v) ConfigName = v end })
+            local ConfigList = ConfigSection:Dropdown({ Name = "Saved Configs", Options = {} })
+            
+            local function Refresh()
+                local names = {}
+                pcall(function()
+                    local files = listfiles(ConfigPath)
+                    for _, file in pairs(files) do
+                        local name = file:match("([^/\\]+)$") or file
+                        name = name:gsub("%.json$", ""):gsub("%.JSON$", "")
+                        names[#names + 1] = name
+                    end
+                end)
+                ConfigList:Refresh(names)
+                if #names > 0 then
+                    Library:Notification({ Text = "Found " .. #names .. " configs: " .. table.concat(names, ", "), Duration = 3 })
+                else
+                    Library:Notification({ Text = "No configs found in folder", Duration = 2 })
+                end
+            end
+            
+            ConfigList.OnOpen = Refresh
+
+            ConfigSection:Button({ Name = "Save Config", Callback = function()
+                if ConfigName == "" then 
+                    Library:Notification({ Text = "Enter a config name", Duration = 3 })
+                    return 
+                end
+                local data = { Theme = {}, Flags = {} }
+                for k, v in pairs(Library.Theme) do data.Theme[k] = {v.R * 255, v.G * 255, v.B * 255} end
+                for k, v in pairs(Library.Flags) do
+                    local val = (v.Get and v.Get()) or (v.GetState and v.GetState()) or (v.GetText and v.GetText())
+                    if typeof(val) == "Color3" then val = {val.R * 255, val.G * 255, val.B * 255} end
+                    data.Flags[k] = val
+                end
+                local success, err = pcall(function()
+                    writefile(ConfigPath .. ConfigName .. ".json", game:GetService("HttpService"):JSONEncode(data))
+                end)
+                if success then
+                    Refresh()
+                    Library:Notification({ Text = "Saved config: " .. ConfigName, Duration = 3 })
+                else
+                    Library:Notification({ Text = "Error saving config", Duration = 5 })
+                end
+            end })
+            
+            ConfigSection:Button({ Name = "Load Config", Callback = function()
+                local selected = ConfigList:Get()
+                if not selected or selected == "" then return end
+                local path = ConfigPath .. selected .. ".json"
+                local success, err = pcall(function()
+                    local data = game:GetService("HttpService"):JSONDecode(readfile(path))
+                    for k, v in pairs(data.Theme or {}) do if Library.Theme[k] then Library.Theme[k] = Color3.fromRGB(v[1], v[2], v[3]) end end
+                    Library:UpdateTheme()
+                    for k, v in pairs(data.Flags or {}) do
+                        if Library.Flags[k] then
+                            local val = v
+                            if type(val) == "table" and #val == 3 then val = Color3.fromRGB(val[1], val[2], val[3]) end
+                            Library.Flags[k].Set(val)
+                        end
+                    end
+                end)
+                if success then
+                    Library:Notification({ Text = "Loaded config: " .. selected, Duration = 3 })
+                else
+                    Library:Notification({ Text = "Error loading config", Duration = 5 })
+                end
+            end })
+
+            ConfigSection:Button({ Name = "Delete Config", Callback = function()
+                local selected = ConfigList:Get()
+                if not selected or selected == "" then return end
+                pcall(function() delfile(ConfigPath .. selected .. ".json") end)
+                Refresh()
+            end })
+
+            task.spawn(function()
+                Refresh()
+                task.wait(0.5)
+                Refresh()
+            end)
+            
+            return ConfigSection
+        end
+
+        return Tab
+    end
+    
+    task.delay(0.2, function() Library:UpdateTheme() end)
+    return Window
+end
