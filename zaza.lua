@@ -451,9 +451,8 @@ function Library:Window(title, size)
                     Key = opts.Default or Enum.KeyCode.X,
                     Binding = false,
                     Started = 0,
-                    Label = nil,
-                    OnTrigger = function() if opts.OnTrigger then opts.OnTrigger(bind.Key) end end,
-                    Callback = opts.Callback
+                    Callback = opts.Callback,
+                    OnTrigger = opts.OnTrigger
                 }
                 local Holder = Create("Frame", { Size = UDim2.new(1, 0, 0, 16), BackgroundTransparency = 1, ZIndex = 6, Parent = ElementList })
                 local Label = Create("TextLabel", { Text = opts.Name or "Keybind", Size = UDim2.new(1, -60, 1, 0), BackgroundTransparency = 1, FontFace = true, TextSize = Library.Config.FontSize, TextColor3 = Library.Theme.Text, TextXAlignment = Enum.TextXAlignment.Left, ZIndex = 7, Parent = Holder, TextStrokeTransparency = 0, TextStrokeColor3 = Color3.fromRGB(0,0,0) })
@@ -462,16 +461,48 @@ function Library:Window(title, size)
                 ApplyCelestiteStyle(Box)
                 local KeyLabel = Create("TextLabel", { Text = GetKeyName(bind.Key), Size = UDim2.new(1, 0, 1, 0), BackgroundTransparency = 1, FontFace = true, TextSize = Library.Config.FontSize, TextColor3 = Library.Theme.Text, TextXAlignment = Enum.TextXAlignment.Center, ZIndex = 8, Parent = Box, TextStrokeTransparency = 0, TextStrokeColor3 = Color3.fromRGB(0,0,0) })
                 table.insert(Library.Elements.Labels, KeyLabel)
-                bind.Label = KeyLabel
                 local BindBtn = Create("TextButton", { Size = UDim2.new(1, 0, 1, 0), BackgroundTransparency = 1, Text = "", ZIndex = 9, Parent = Box })
+
+                local function ApplyKey(newKey)
+                    bind.Key = newKey
+                    bind.Binding = false
+                    KeyLabel.Text = GetKeyName(bind.Key)
+                    KeyLabel.TextColor3 = Library.Theme.Text
+                    if bind.Callback then bind.Callback(bind.Key) end
+                end
+
                 BindBtn.MouseButton1Click:Connect(function()
-                    if bind.Binding then return end
-                    bind.Binding = true
-                    bind.Started = tick()
-                    KeyLabel.Text = "..."
-                    KeyLabel.TextColor3 = Library.Theme.Accent
+                    if bind.Binding then
+                        bind.Binding = false
+                        KeyLabel.Text = GetKeyName(bind.Key)
+                        KeyLabel.TextColor3 = Library.Theme.Text
+                    else
+                        bind.Binding = true
+                        bind.Started = tick()
+                        KeyLabel.Text = "..."
+                        KeyLabel.TextColor3 = Library.Theme.Accent
+                    end
                 end)
-                table.insert(Library.Registry, bind)
+
+                UIS.InputBegan:Connect(function(input, gpe)
+                    if bind.Binding then
+                        if tick() - bind.Started < 0.1 then return end
+                        if input.UserInputType == Enum.UserInputType.Keyboard then
+                            if input.KeyCode == Enum.KeyCode.Unknown then return end
+                            ApplyKey(input.KeyCode)
+                        elseif input.UserInputType == Enum.UserInputType.MouseButton1
+                            or input.UserInputType == Enum.UserInputType.MouseButton2
+                            or input.UserInputType == Enum.UserInputType.MouseButton3 then
+                            ApplyKey(input.UserInputType)
+                        end
+                    else
+                        local cur = (input.UserInputType == Enum.UserInputType.Keyboard) and input.KeyCode or input.UserInputType
+                        if cur == bind.Key then
+                            if bind.OnTrigger then bind.OnTrigger() end
+                        end
+                    end
+                end)
+
                 local Obj = {
                     Get = function() return bind.Key end,
                     Set = function(k) bind.Key = k; KeyLabel.Text = GetKeyName(k) end
@@ -763,7 +794,6 @@ function Library:Window(title, size)
             local ConfigPath = "celestite/"
             if not isfolder(ConfigPath) then makefolder(ConfigPath) end
 
-            -- ==== AUTOLOAD PREFS ====
             local autoPath = ConfigPath .. "_autoload.json"
             local autoPrefs = { enabled = false, config = "" }
             pcall(function()
@@ -872,7 +902,6 @@ function Library:Window(title, size)
                 Refresh()
             end })
 
-            -- ==== AUTO LOAD TOGGLE ====
             ConfigSection:Toggle({
                 Name = "Auto Load",
                 Default = autoPrefs.enabled,
