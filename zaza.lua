@@ -394,6 +394,77 @@ function Library:Window(title, size)
     TitleBar.InputBegan:Connect(function(input) if input.UserInputType == Enum.UserInputType.MouseButton1 then dragging = true; dragStart = input.Position; startPos = Main.Position end end)
     UIS.InputChanged:Connect(function(input) if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then local delta = input.Position - dragStart; Main.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y) end end)
     UIS.InputEnded:Connect(function(input) if input.UserInputType == Enum.UserInputType.MouseButton1 then dragging = false end end)
+
+    --=========================================================
+    -- RESIZE HANDLES
+    --=========================================================
+    local function makeResize(name, size, position, anchor, dir)
+        local handle = Create("TextButton", {
+            Name = name, Size = size, Position = position,
+            AnchorPoint = anchor, BackgroundTransparency = 1,
+            Text = "", ZIndex = 200, Parent = Main,
+        })
+
+        local resizing, startSize, startPos2 = false, nil, nil
+
+        handle.InputBegan:Connect(function(input)
+            if input.UserInputType == Enum.UserInputType.MouseButton1 then
+                resizing  = true
+                startSize = Main.AbsoluteSize
+                startPos2 = input.Position
+            end
+        end)
+
+        UIS.InputChanged:Connect(function(input)
+            if not resizing then return end
+            if input.UserInputType ~= Enum.UserInputType.MouseMovement then return end
+            local d = input.Position - startPos2
+            local nx, ny = startSize.X, startSize.Y
+            if dir:find("r") then nx = math.max(420, startSize.X + d.X) end
+            if dir:find("l") then nx = math.max(420, startSize.X - d.X) end
+            if dir:find("b") then ny = math.max(280, startSize.Y + d.Y) end
+            if dir:find("t") then ny = math.max(280, startSize.Y - d.Y) end
+            Main.Size = UDim2.fromOffset(nx, ny)
+        end)
+
+        UIS.InputEnded:Connect(function(input)
+            if input.UserInputType == Enum.UserInputType.MouseButton1 then
+                resizing = false
+            end
+        end)
+
+        return handle
+    end
+
+    -- Bottom-right corner (main grab area)
+    makeResize("ResizeBR",
+        UDim2.new(0, 14, 0, 14), UDim2.new(1, 0, 1, 0),
+        Vector2.new(1, 1), "rb")
+
+    -- Small visual indicator on the corner grip
+    local GripDot = Create("Frame", {
+        Size = UDim2.new(0, 8, 0, 8),
+        Position = UDim2.new(1, -10, 1, -10),
+        BackgroundColor3 = Library.Theme.Accent,
+        BackgroundTransparency = 0.35,
+        BorderSizePixel = 0, ZIndex = 201, Parent = Main,
+    })
+    Create("UICorner", { CornerRadius = UDim.new(0, 2), Parent = GripDot })
+    local GripDot2 = Create("Frame", {
+        Size = UDim2.new(0, 4, 0, 4),
+        Position = UDim2.new(1, -5, 1, -5),
+        BackgroundColor3 = Library.Theme.Accent,
+        BackgroundTransparency = 0.35,
+        BorderSizePixel = 0, ZIndex = 201, Parent = Main,
+    })
+    Create("UICorner", { CornerRadius = UDim.new(0, 1), Parent = GripDot2 })
+
+    -- Edge handles
+    makeResize("ResizeR", UDim2.new(0, 6, 1, -28), UDim2.new(1, 0, 0, 28), Vector2.new(1, 0), "r")
+    makeResize("ResizeL", UDim2.new(0, 6, 1, -28), UDim2.new(0, 0, 0, 28), Vector2.new(0, 0), "l")
+    makeResize("ResizeB", UDim2.new(1, -28, 0, 6), UDim2.new(0, 28, 1, 0), Vector2.new(0, 1), "b")
+    makeResize("ResizeT", UDim2.new(1, -28, 0, 6), UDim2.new(0, 28, 0, 0), Vector2.new(0, 0), "t")
+
     local function ResizeTabs() for _, t in pairs(Window.Tabs) do t.Button.Size = UDim2.new(1 / #Window.Tabs, 0, 1, 0) end end
 
     function Window:Tab(name)
@@ -401,11 +472,50 @@ function Library:Window(title, size)
         local TabButton = Create("TextButton", { Name = name, Text = name, Size = UDim2.new(0, 0, 1, 0), AutomaticSize = Enum.AutomaticSize.X, BackgroundTransparency = 1, FontFace = true, TextSize = Library.Config.FontSize, TextColor3 = Library.Theme.InactiveText, AutoButtonColor = false, ZIndex = 3, Parent = TabBar, TextStrokeTransparency = 0, TextStrokeColor3 = Color3.fromRGB(0,0,0) })
         local TabAccent = Create("Frame", { Name = "Accent", Size = UDim2.new(0, 0, 0, 1), Position = UDim2.new(0.5, 0, 0.5, 8), BackgroundColor3 = Library.Theme.Accent, BorderSizePixel = 0, ZIndex = 4, Parent = TabButton })
         
-        local TabPage = Create("Frame", { Name = name .. "_Page", Size = UDim2.new(1, 0, 1, 0), BackgroundTransparency = 1, Visible = false, ZIndex = 2, Parent = ContentArea })
-        local LeftColumn = Create("Frame", { Name = "Left", Size = UDim2.new(0.5, -8, 1, -12), Position = UDim2.new(0, 6, 0, 6), BackgroundTransparency = 1, AutomaticSize = Enum.AutomaticSize.Y, ZIndex = 3, Parent = TabPage, ClipsDescendants = false })
-        Create("UIListLayout", {SortOrder = Enum.SortOrder.LayoutOrder, Padding = UDim.new(0, 4), Parent = LeftColumn})
-        local RightColumn = Create("Frame", { Name = "Right", Size = UDim2.new(0.5, -8, 1, -12), Position = UDim2.new(0.5, 4, 0, 6), BackgroundTransparency = 1, AutomaticSize = Enum.AutomaticSize.Y, ZIndex = 3, Parent = TabPage, ClipsDescendants = false })
-        Create("UIListLayout", {SortOrder = Enum.SortOrder.LayoutOrder, Padding = UDim.new(0, 4), Parent = RightColumn})
+        local TabPage = Create("Frame", {
+            Name = name .. "_Page", Size = UDim2.new(1, 0, 1, 0),
+            BackgroundTransparency = 1, Visible = false, ZIndex = 2, Parent = ContentArea
+        })
+
+        local LeftScroll = Create("ScrollingFrame", {
+            Name = "LeftScroll",
+            Size = UDim2.new(0.5, -8, 1, -12),
+            Position = UDim2.new(0, 6, 0, 6),
+            BackgroundTransparency = 1, BorderSizePixel = 0,
+            ScrollBarThickness = 2,
+            ScrollBarImageColor3 = Library.Theme.Inline,
+            CanvasSize = UDim2.new(0, 0, 0, 0),
+            AutomaticCanvasSize = Enum.AutomaticSize.Y,
+            ScrollingDirection = Enum.ScrollingDirection.Y,
+            ZIndex = 3, Parent = TabPage,
+        })
+        local LeftColumn = Create("Frame", {
+            Name = "Left", Size = UDim2.new(1, -6, 0, 0),
+            BackgroundTransparency = 1,
+            AutomaticSize = Enum.AutomaticSize.Y,
+            ZIndex = 3, Parent = LeftScroll, ClipsDescendants = false
+        })
+        Create("UIListLayout", { SortOrder = Enum.SortOrder.LayoutOrder, Padding = UDim.new(0, 4), Parent = LeftColumn })
+
+        local RightScroll = Create("ScrollingFrame", {
+            Name = "RightScroll",
+            Size = UDim2.new(0.5, -8, 1, -12),
+            Position = UDim2.new(0.5, 4, 0, 6),
+            BackgroundTransparency = 1, BorderSizePixel = 0,
+            ScrollBarThickness = 2,
+            ScrollBarImageColor3 = Library.Theme.Inline,
+            CanvasSize = UDim2.new(0, 0, 0, 0),
+            AutomaticCanvasSize = Enum.AutomaticSize.Y,
+            ScrollingDirection = Enum.ScrollingDirection.Y,
+            ZIndex = 3, Parent = TabPage,
+        })
+        local RightColumn = Create("Frame", {
+            Name = "Right", Size = UDim2.new(1, -6, 0, 0),
+            BackgroundTransparency = 1,
+            AutomaticSize = Enum.AutomaticSize.Y,
+            ZIndex = 3, Parent = RightScroll, ClipsDescendants = false
+        })
+        Create("UIListLayout", { SortOrder = Enum.SortOrder.LayoutOrder, Padding = UDim.new(0, 4), Parent = RightColumn })
         
         local function Activate() 
             for _, t in pairs(Window.Tabs) do 
